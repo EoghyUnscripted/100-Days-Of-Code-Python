@@ -23,18 +23,18 @@ Learn to build websites, games, apps, plus scraping and data science
 # HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
 print("Welcome to the Tip Calculator.")
-bill = float(input("What is the total bill?\n"))
-percent = float(input("What percent do you want to tip: Enter 10, 12 or 15?\n"))
+bill = float(input("What is the total bill? $"))
+percent = float(input("What percent do you want to tip: Enter 10, 12 or 15?   % \x1B[4D"))
 
 percent = percent / 100
 tipAmount = float(bill * percent)
-billAmount = round(bill + tipAmount, 2)
+billAmount = "{:.2f}".format(round(bill + tipAmount, 2))
 message = f"The total bill with tip is: ${billAmount}"
 
 print(message)
 
-group = int(input("How many are splitting the bill, today?\n"))
-tip = round(billAmount / group, 2)
+group = int(input("How many are splitting the bill, today? "))
+tip = "{:.2f}".format(round(float(billAmount) / group, 2))
 message = f"Each person should pay: ${tip}"
 
 print(message)
