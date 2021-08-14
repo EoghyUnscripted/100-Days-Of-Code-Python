@@ -1,4 +1,4 @@
-# Day X 
+# Day 15 Coffee Machine Part 1
 
 ## Exercise X-Y: 
 

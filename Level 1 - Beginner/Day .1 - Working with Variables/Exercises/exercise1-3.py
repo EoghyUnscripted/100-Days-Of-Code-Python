@@ -13,6 +13,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 1
 EXERCISE: 1-3 Inputs
+LEVEL: Beginner
 
 INSTRUCTIONS:
 

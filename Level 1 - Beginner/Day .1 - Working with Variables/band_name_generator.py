@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 1
 PROJECT: BAND NAME GENERATOR
+LEVEL: BEGINNER
 
 INSTRUCTIONS:
 
