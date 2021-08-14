@@ -60,49 +60,35 @@ print("Welcome to Rock, Paper, Scissors\nWhat will you pick: Rock, Paper or Scis
 userChoice = int(input("Enter 0 for Rock, 1 for Paper, 2 for Scissors: "))
 compChoice = random.randint(0,2)
 
+# Check if user input is valid
+if userChoice < 0 or userChoice > 2:
+    print("That is an invalid choice, you lose!")
+    exit()
+
+art = [rock, paper, scissors]
+text = ["Rock", "Paper", "Scissors"]
+
+print(f"\nYou picked {text[userChoice]}:\n{art[userChoice]}\n")
+print(f"\nComputer picked {text[compChoice]}:\n{art[compChoice]}\n")
+
 # Check if tied
 if userChoice == compChoice:
-    if userChoice == 0:
-        print(f"\nYou picked Rock \n{rock}")
-        print(f"\nThe computer picked Rock \n{rock}")
-        print("\nIt's a tie!")
-        exit
-    elif userChoice == 1:
-        print(f"\nYou picked Paper \n{paper}")
-        print(f"\nThe computer picked Paper \n{paper}")
-        print("\nIt's a tie!")
-        exit
-    elif userChoice == 2:
-        print(f"\nYou picked Scissors \n{scissors}")
-        print(f"\nThe computer picked Scissors \n{scissors}")
-        print("\nIt's a tie!")
-        exit
+    print("\nIt's a tie!")
+    exit()
 
 # If not tied
 if userChoice == 0:
     if compChoice == 1:
-        print(f"\nYou picked Rock \n{rock}")
-        print(f"\nThe computer picked Paper \n{paper}")
-        print("\nYou Lose!")
-    if compChoice == 2:
-        print(f"\nYou picked Rock \n{rock}")
-        print(f"\nThe computer picked Scissors \n{scissors}")
-        print("\nYou Win!")
+        print("Paper covers rock, you lose!")
+    elif compChoice == 2:
+        print("Rock breaks scissors, you win!")
 elif userChoice == 1:
     if compChoice == 0:
-        print(f"\nYou picked Paper \n{paper}")
-        print(f"\nThe computer picked Rock \n{rock}")
-        print("\nYou Win!")
-    if compChoice == 2:
-        print(f"\nYou picked Paper \n{rock}")
-        print(f"\nThe computer picked Scissors \n{scissors}")
-        print("\nYou Lose!")
+        print("Paper covers rock, you win!")
+    elif compChoice == 2:
+        print("Scissors cut paper, you lose!")
 elif userChoice == 2:
     if compChoice == 0:
-        print(f"\nYou picked Scissors \n{scissors}")
-        print(f"\nThe computer picked Rock \n{rock}")
-        print("\nYou Lose!")
-    if compChoice == 1:
-        print(f"\nYou picked Scissors \n{scissors}")
-        print(f"\nThe computer picked Paper \n{paper}")
-        print("\nYou Win!")
+        print("Rock beats scissors, you lose!")
+    elif compChoice == 1:
+        print("Scissors cut paper, you win!")
