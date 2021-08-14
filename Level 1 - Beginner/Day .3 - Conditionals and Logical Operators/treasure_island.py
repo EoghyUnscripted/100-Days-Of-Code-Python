@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 3
 PROJECT: TREASURE ISLAND
+LEVEL: BEGINNER
 
 INSTRUCTIONS:
 

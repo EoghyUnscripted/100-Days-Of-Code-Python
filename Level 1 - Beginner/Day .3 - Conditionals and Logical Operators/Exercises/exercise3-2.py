@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 3
 EXERCISE: 3-2 BMI Calculator 2.0
+LEVEL: Beginner
 
 INSTRUCTIONS:
 
