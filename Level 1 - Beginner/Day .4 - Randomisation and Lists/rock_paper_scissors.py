@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 4
 PROJECT: ROCK, PAPER, SCISSORS
+LEVEL: BEGINNER
 
 INSTRUCTIONS:
 

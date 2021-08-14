@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 4
 EXERCISE: 4-1 Heads or Tails
+LEVEL: Beginner
 
 INSTRUCTIONS:
 
