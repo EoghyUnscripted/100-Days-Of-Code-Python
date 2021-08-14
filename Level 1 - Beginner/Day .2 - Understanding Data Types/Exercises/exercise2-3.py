@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 2
 EXERCISE: 2-3 Your Life in Weeks, Months, Years
+LEVEL: Beginner
 
 INSTRUCTIONS:
 

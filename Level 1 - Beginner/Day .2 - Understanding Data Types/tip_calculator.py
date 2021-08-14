@@ -12,6 +12,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 2
 PROJECT: TIP CALCULATOR
+LEVEL: BEGINNER
 
 INSTRUCTIONS:
 
