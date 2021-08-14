@@ -16,6 +16,10 @@ Learn to build websites, games, apps, plus scraping and data science
 
 # INSTRUCTIONS:
 
+# 1. Create a storyline for your treasure hunt adventure
+# 2. Using if loops, ask for users to make choices for the story along the way
+# 3. With each choice, the user will progress until they find the treasure, or choose wrong
+
 print('''
 *******************************************************************************
           |                   |                  |                     |
