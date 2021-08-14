@@ -52,7 +52,7 @@ Michael is going to buy the meal today!
 
 1. You might need the help of the `len()` function.   
 
-[https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list](https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list)
+    [https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list](https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list)
 
 2. Remember that Lists start at index 0!
 
