@@ -10,20 +10,16 @@ DESCRIPTION:
 Master Python by building 100 projects in 100 days. 
 Learn to build websites, games, apps, plus scraping and data science
 
-# Day 1 Exercises
+DAY: 1
+EXERCISE: 1-1 Printing to the Console
 
-## Printing to the Console
+INSTRUCTIONS:
 
-## Instructions
+    Write a program that prints the following:
 
-Write a program that prints the following:
-
-    Day 1 - Python Print Function
-    The function is declared like this:
-    print('what to print')
-
-e.g. When you hit **run**, this is what should happen:
-![](https://cdn.fs.teachablecdn.com/q89uzhvRTf6CZHLtxLm6)
+        Day 1 - Python Print Function
+        The function is declared like this:
+        print('what to print')
 
 """
 
