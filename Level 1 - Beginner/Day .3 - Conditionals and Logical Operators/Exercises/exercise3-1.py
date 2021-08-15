@@ -30,7 +30,9 @@ INSTRUCTIONS:
 
 number = int(input("Which number do you want to check? "))
 
+# Check if divides by 2
 if number % 2 == 0:
   print(f"{number} is an even number.")
+# If does not
 elif number % 2 != 0:
   print(f"{number} is an odd number.")

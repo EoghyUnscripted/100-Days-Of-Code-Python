@@ -37,13 +37,19 @@ INSTRUCTIONS:
 
 year = int(input("Which year do you want to check? "))
 
+# Checks if year divides by 4
 if year % 4 == 0:
+    # Checks if year also divides by 100
     if year % 100 == 0:
+        # Checks if year also divides by 400
         if year % 400 == 0:
             print("Leap year.")
+        # If does not also divide by 400
         else:
             print("Not leap year.")
+    # If does not also divide by 100
     else:
         print("Leap year.")
+# If year only divies by 4
 else:
         print("Leap year.")
