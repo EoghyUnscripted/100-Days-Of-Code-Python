@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Level 1 - Beginner/Day .7 - Hangman/Packages"
+    ]
+}
