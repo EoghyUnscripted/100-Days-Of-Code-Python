@@ -22,7 +22,7 @@ Shorten the code by using a FOR loop that executes the function.
 
 ### Instructions
 
-[Reeborg World - Hurlde Challenge 2](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json)
+[Reeborg World - Hurdle Challenge 2](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json)
 
 A robot located at (x, y) = (1, 1) carries no object.
 
@@ -44,7 +44,7 @@ This code should check the `at_goal()` function and stop when `True`, using the 
 
 ### Instructions
 
-[Reeborg World - Hurlde Challenge 3](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
+[Reeborg World - Hurdle Challenge 3](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
 
 A robot located at (x, y) = (1, 1) carries no object.
 
@@ -60,9 +60,9 @@ Create a function `jump()` to move the robot over the hurdles.
 
 You will use the `front_is_clear()` or `wall_in_front()` functions to check hurdles, using negation.
 
-    i.e. `not front_is_clear()` or `not wall_in_front()`
+    i.e. not front_is_clear() or not wall_in_front()
 
 Shorten the code by using a WHILE loop that executes the function.
 
-This code should check the `at_goal()` function and stop when `True`.
+This code should check the `at_goal()` function and stop when `True`, using the negation: `not at_goal()`.
 
