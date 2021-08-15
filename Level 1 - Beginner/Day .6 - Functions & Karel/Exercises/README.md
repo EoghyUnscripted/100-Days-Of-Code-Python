@@ -86,7 +86,7 @@ This challenge will randomize the number of hurdles, hurdle heights, and placeme
 
 ![Instructions Image](Images/exercise6-4-Instructions-2.png)
 
-You can use the codes available for this challenge listed here along with your `jump()` function:
+You can use the funtions available for this challenge listed here along with your `jump()` function:
 
 ![Instructions Image](Images/exercise6-4-Instructions-3.png)
 
