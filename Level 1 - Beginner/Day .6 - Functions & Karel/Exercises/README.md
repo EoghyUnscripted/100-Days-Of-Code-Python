@@ -8,6 +8,6 @@ A robot located at (x, y) = (1, 1) carries no object.
 
 GOAL: Move the robot along the path to the final position of (13,1)
 
-![Instructions Image](exercise6-1-Instructions.png)
+![Instructions Image](images/exercise6-1-Instructions.png)
 
-![Instructions Image](exercise6-1-Instructions-2.png)
+![Instructions Image](images/exercise6-1-Instructions-2.png)
