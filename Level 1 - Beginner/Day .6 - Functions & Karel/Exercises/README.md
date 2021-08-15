@@ -36,7 +36,7 @@ This challenge will randomise the position of the flag.
 
 Create a function `jump()` to move the robot over the hurdles.
 
-Shorten the code by using a WHILE loop that executes the function.
+Shorten the code by using a WHILE loop that executes the program functions.
 
 This code should check the `at_goal()` function and stop when `True`, using the negation: `not at_goal()`.
 
@@ -64,7 +64,7 @@ You will use the `front_is_clear()` or `wall_in_front()` functions to check hurd
 
     i.e. not front_is_clear() or not wall_in_front()
 
-Shorten the code by using a WHILE loop that executes the function.
+Shorten the code by using a WHILE loop that executes the program functions.
 
 This code should check the `at_goal()` function and stop when `True`, using the negation: `not at_goal()`.
 
@@ -90,7 +90,7 @@ You can use the codes available for this challenge listed here along with your `
 
 ![Instructions Image](Images/exercise6-4-Instructions-3.png)
 
-Shorten the code by using a WHILE loop that executes the function.
+Shorten the code by using a WHILE loop that executes the program functions.
 
 This code should check the `at_goal()` function and stop when `True`, using the negation: `not at_goal()`.
 
