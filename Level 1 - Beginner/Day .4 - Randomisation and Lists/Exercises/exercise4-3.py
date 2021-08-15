@@ -12,7 +12,6 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 4
 EXERCISE: 4-3 Treasure Map
-LEVEL: Beginner
 
 INSTRUCTIONS:
 
