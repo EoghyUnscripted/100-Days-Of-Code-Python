@@ -11,10 +11,11 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 18
-EXERCISE: 18-1 Turtle: Draw a Square
+EXERCISE: 18-3 Turtle: Draw Different Shapes
+LEVEL: Intermediate
 
 INSTRUCTIONS:
 
-    Write a program using Turtle to draw a square.
+    Write a program using Turtle to draw different shapes.
 
 """
