@@ -19,3 +19,5 @@ This challenge will randomize the starting position of the robot.
 You can use the functions available for this challenge listed here:
 
 ![Instructions Image](Images/escape_the_maze_instructions_3.png)
+
+Use a WHILE loop with if/elif/else statments to solve.
