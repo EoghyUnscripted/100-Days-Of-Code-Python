@@ -31,10 +31,12 @@ INSTRUCTIONS:
 
 two_digit_number = input("Type a two digit number: ")
 
+# Checks that the unput is 2 digits
 if len(two_digit_number) > 2:
   print("That is not a two digit number.\nTry, again.")
   exit
 
+# If Valid Input
 if len(two_digit_number) == 2:
   
   i = 0
@@ -42,6 +44,7 @@ if len(two_digit_number) == 2:
 
   while i < 2:
 
+    # Adds each number together
     num = num + int(two_digit_number[i])
     i += 1
       

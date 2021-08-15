@@ -16,26 +16,26 @@ LEVEL: Beginner
 
 INSTRUCTIONS:
 
-    Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
+    Create a program using maths and f-Strings that tells us how many days, weeks, 
+    months we have left if we live until 90 years old.
 
-    The BMI is a measure of some's weight taking into account their height.
-    e.g. If a tall person and a short person both weigh the same amount, the short person is usually more overweight.
-
-    BMI = weight/height^2 = kg/meter^2
+    It will take your current age as the input and output a message with our time left in this format:
+    You have x days, y weeks, and z months left.
 
     Use the code provided -- do not change the existing code!
 
     CODE:
 
-        height = input("enter your height in m: ")
-        weight = input("enter your weight in kg: ")
+        age = input("What is your current age? ")
 
         # WRITE YOUR CODE HERE
 
 """
 
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+age = input("What is your current age? ")
 
-bmi = float(weight) / float(height)**2
-print(int(bmi))
+days = (90 - int(age)) * 365
+weeks = (90 - int(age)) * 52
+months = (90 - int(age)) * 12
+
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")

@@ -37,5 +37,6 @@ INSTRUCTIONS:
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
+# BMI = weight/height^2 = kg/meter^2
 bmi = float(weight) / float(height)**2
 print(int(bmi))
