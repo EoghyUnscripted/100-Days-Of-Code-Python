@@ -16,7 +16,7 @@ LEVEL: Beginner
 
 INSTRUCTIONS:
 
-    Using the code from 7-4, continue to add to the program for the final project.
+    Using the code from 7-1 to 7-4, continue to add final touches to the program for the final project.
 
     Step 1 - Update the word list to use the 'word_list' from hangman_words.py file.
     Step 2 - Import the stages from the hangman_art.py file.
