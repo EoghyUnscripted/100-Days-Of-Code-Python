@@ -11,7 +11,7 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 7
-EXERCISE: 7-1 Hangman: Picking a Random Word and Checking Answers
+PROJECT: 7-1 Hangman: Picking a Random Word and Checking Answers
 LEVEL: Beginner
 
 INSTRUCTIONS:

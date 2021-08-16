@@ -11,7 +11,7 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 7
-EXERCISE: 7-3 Hangman: Checking If User Has Won
+PROJECT: 7-3 Hangman: Checking If User Has Won
 LEVEL: Beginner
 
 INSTRUCTIONS:

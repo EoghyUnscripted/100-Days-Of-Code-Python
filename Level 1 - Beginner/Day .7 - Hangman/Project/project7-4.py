@@ -11,7 +11,7 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 7
-EXERCISE: 7-4 Hangman: Tracking Players' Lives Remaining
+PROJECT: 7-4 Hangman: Tracking Players' Lives Remaining
 LEVEL: Beginner
 
 INSTRUCTIONS:
