@@ -27,12 +27,12 @@ INSTRUCTIONS:
 
     CODE:
 
-    student_heights = input("Input a list of student heights ").split()
+        student_heights = input("Input a list of student heights ").split()
 
-    for n in range(0, len(student_heights)):
-        student_heights[n] = int(student_heights[n])
+        for n in range(0, len(student_heights)):
+            student_heights[n] = int(student_heights[n])
 
-    # WRITE YOUR CODE HERE
+        # WRITE YOUR CODE HERE
 
 """
 
