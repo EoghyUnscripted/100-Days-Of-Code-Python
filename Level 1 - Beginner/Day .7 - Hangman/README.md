@@ -12,6 +12,4 @@ Using the code from 7-1 to 7-4, continue to add final touches to the program for
 
 ### Example Gameplay
 
-![](https://replit.com/@appbrewery/Day-7-Hangman-5-End?embed=1&output=1#main.py)
-
-### Hint
+[Hangman Demo](https://replit.com/@appbrewery/Day-7-Hangman-5-End?embed=1&output=1#main.py)
