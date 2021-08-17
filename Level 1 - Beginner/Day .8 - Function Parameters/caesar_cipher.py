@@ -79,16 +79,20 @@ def caesar(direction, message, word_shift):
 repeat = True
 print(logo)
 
-while repeat == True:
-    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt:\n")
-    text = input("\nType your message:\n")
-    shift = int(input("\nType the shift number:\n"))
+while repeat == True: # While user wants to keep restarting
+    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt:\n")    # Get Encode or Decode option from user
+    text = input("\nType your message:\n")  # Get message to encode or decode from user
+    shift = int(input("\nType the shift number:\n"))    # Get shift count from user
 
     caesar(direction=direction, message=text, word_shift=shift) # Call function
 
+    # Ask if user wants to restart the cipher program
     run_again = input(f"\nType 'yes' if you want to go again. Otherwise type 'no'.\n").lower()
 
+    # Check response
     if run_again == "yes":
+        # If yes
         repeat = True
     else:
+        # If no
         repeat = False
