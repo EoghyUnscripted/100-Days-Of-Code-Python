@@ -41,6 +41,7 @@ INSTRUCTIONS:
         paint_calc(height=test_h, width=test_w, cover=coverage)
 
 """
+
 import math
 
 def paint_calc(height, width, cover):

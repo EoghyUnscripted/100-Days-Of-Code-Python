@@ -16,18 +16,10 @@ LEVEL: Beginner
 
 INSTRUCTIONS:
 
-    You are painting a wall. The instructions on the paint can says that **1 can of paint can cover 5 square meters** of wall. 
-    
-    Given a random height and width of wall, calculate how many cans of paint you'll need to buy.
+    You need to write a function that checks whether if the number passed into it is a prime number or not.
 
-        number of cans = (wall height ✖️ wall width) ÷ coverage per can. 
-            e.g. Height = 2, Width = 4, Coverage = 5
-
-        number of cans = (2 ✖️ 4) ÷ 5 = 1.6
-
-    But because you can't buy 0.6 of a can of paint, the result should be rounded up. 
-
-    NOTE: The name of the function and parameters must match those for paint_calc() for the code to work.
+        e.g. 2 is a prime number because it's only divisible by 1 and 2.
+             4 is not a prime number because you can divide it by 1, 2 or 4.
 
     Use the code provided -- do not change the existing code!
 
@@ -35,21 +27,29 @@ INSTRUCTIONS:
 
         # WRITE YOUR CODE HERE
 
-        test_h = int(input("Height of wall: "))
-        test_w = int(input("Width of wall: "))
-        coverage = 5
-        paint_calc(height=test_h, width=test_w, cover=coverage)
+        n = int(input("Check this number: "))
+        prime_checker(number=n)
 
 """
-import math
 
-def paint_calc(height, width, cover):
+def prime_checker(number):
+
+    is_prime = True
+
+    # Checks if the number divides by any other 
+    # number except 1 and itself
+    for i in range(2, number):
+        # If number is divided by a number between 2 to input number
+        if number % i == 0:
+            # Sets prime indicator to False
+            is_prime = False
     
-    number_of_cans = int(math.ceil((height * width)/cover)) # Round up to nearest number
-    print(f"You'll need {number_of_cans} cans of paint.")
+    if is_prime:
+        # Prints if prime is True
+        print("It's a prime number.")
+    else:
+        # Prints if prime is False
+        print("It's not a prime number.")
 
-test_h = int(input("Height of wall: ")) # Get Height of wall
-test_w = int(input("Width of wall: "))  # Get Width of wall
-coverage = 5
-
-paint_calc(height=test_h, width=test_w, cover=coverage) # Call function with parameters
+n = int(input("Check this number: "))
+prime_checker(number=n)
