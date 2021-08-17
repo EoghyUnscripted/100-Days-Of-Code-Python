@@ -18,32 +18,37 @@ INSTRUCTIONS:
 
     1. Import and print the logo from art.py when the program starts.
     2. What if the user enters a shift that is greater than the number of letters in the alphabet?
-        1. Try running the program and entering a shift number of 45.
-        2. Add some code so that the program continues to work even if the user enters a shift number greater than 26. 
-        3. Hint: Think about how you can use the modulus (%).
+        i. Try running the program and entering a shift number of 45.
+        ii. Add some code so that the program continues to work even if the user enters a shift number greater than 26. 
+        iii. Hint: Think about how you can use the modulus (%).
     3. What happens if the user enters a number/symbol/space?
-        1. Can you fix the code to keep the number/symbol/space when the text is encoded/decoded?
+        i. Can you fix the code to keep the number/symbol/space when the text is encoded/decoded?
             e.g. start_text = "meet me at 3" end_text = "•••• •• •• 3"
     4. Can you figure out a way to ask the user if they want to restart the cipher program?
             e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
-        1. If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
-        2. Hint: Try creating a while loop that continues to execute the program if the user types 'yes'. 
+        i. If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
+        ii. Hint: Try creating a while loop that continues to execute the program if the user types 'yes'. 
+
+COMMENTS:
+
+    I added the uppercase alphabet, digits, and common special characters to enhance the program.
+    If user adds extra elements to the text, it will just copy them to the output string.
+    While I could have settled with going the simple route that the instructor took when reviewing,
+    I chose to stick with the list because it would allow me to use list functions to manipulate.
 
 """
 
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-recoded = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
+from Packages.art import logo
+from Packages.data import alphabet
 
 def caesar(direction, message, word_shift):
 
-    """     # Tests if the shift input is greater than the range available
-    if word_shift > len(alphabet):
-        print(f"Please choose a number between 1 and {len(alphabet)}.")
-        exit()  # Exits the program """
+    recoded = []    # Blank list for shifted alphabet
+
+    # Copy elements from alphabet list to shifted list
+    # Required to 'reset' list every time program loops
+    for c in alphabet:
+        recoded.append(c)
 
     caesar_text = ""   # Holds the output string
 
@@ -61,11 +66,29 @@ def caesar(direction, message, word_shift):
 
     # Loop through each character of the input text
     for char in message:
+        # Checks if char is in the alphabet list
+        if char in alphabet:
+            location = alphabet.index(char) # Get location from original alphabet 
+            caesar_letter = recoded[location]     # Get letter from shifted alphabet
+            caesar_text += caesar_letter  # Add to output text variable
+        else:   # If char not in alphabet list
+            caesar_text += char  # Add input character to output text variable
 
-        location = alphabet.index(char) # Get location from original alphabet 
-        caesar_letter = recoded[location]     # Get letter from shifted alphabet
-        caesar_text += caesar_letter  # Add to output text variable
+    print(f"The {direction}d text is: {caesar_text}")
 
-    print(f"The {direction}d text is {caesar_text}")
+repeat = True
+print(logo)
 
-caesar(direction=direction, message=text, word_shift=shift) # Call function
+while repeat == True:
+    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt:\n")
+    text = input("\nType your message:\n")
+    shift = int(input("\nType the shift number:\n"))
+
+    caesar(direction=direction, message=text, word_shift=shift) # Call function
+
+    run_again = input(f"\nType 'yes' if you want to go again. Otherwise type 'no'.\n").lower()
+
+    if run_again == "yes":
+        repeat = True
+    else:
+        repeat = False
