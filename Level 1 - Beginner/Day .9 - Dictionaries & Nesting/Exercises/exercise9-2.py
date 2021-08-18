@@ -59,8 +59,9 @@ travel_log = [
     },
 ]
 
-def add_new_country(country, visits, places):
-    travel_log.append({"country":country, "visits":visits, "places":places})
+def add_new_country(country_name, visit_count, cities_visited):
+    # Get parameters and append to travel log list as new nested dictionary
+    travel_log.append({"country":country_name, "visits":visit_count, "cities":cities_visited})
 
-add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])    # Call function with parameters
 print(travel_log)
