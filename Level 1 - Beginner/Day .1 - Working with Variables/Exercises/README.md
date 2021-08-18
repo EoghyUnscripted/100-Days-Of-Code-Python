@@ -6,23 +6,17 @@
 
 Write a program that prints the following:
 
-```
-Day 1 - Python Print Function
-```
+    Day 1 - Python Print Function
 
-```
-The function is declared like this:
-```
+    The function is declared like this:
 
-```
-print('what to print')
-```
+    print('what to print')
 
 ### Example Output
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/q89uzhvRTf6CZHLtxLm6)
+![Alt Image](https://cdn.fs.teachablecdn.com/q89uzhvRTf6CZHLtxLm6)
 
 ## Exercise 1-2: Debugging
 
@@ -30,22 +24,20 @@ e.g. When you hit **run**, this is what should happen:
 
 Look at the code provided. There are errors in all of the lines of code. Fix the code so that it runs without errors.
 
-**Warning:** The output in your program should match the example output shown below exactly, character for character, even spaces and symbols should be identical, otherwise the tests won't pass. 
+**Warning:** The output in your program should match the example output shown below exactly, character for character, even spaces and symbols should be identical, otherwise the tests won't pass.
 
 ### Example Output
 
 When you run your program, it should print the following:
 
-```
-Day 1 - String Manipulation
-String Concatenation is done with the "+" sign.
-e.g. print("Hello " + "world")
-New lines can be created with a backslash and n.
-```
+    Day 1 - String Manipulation
+    String Concatenation is done with the "+" sign.
+    e.g. print("Hello " + "world")
+    New lines can be created with a backslash and n.
 
 e.g. When you hit **run**, there should be no errors and this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/BVP20Z2T1Gb4Pi6rOQah)
+![Alt Image](https://cdn.fs.teachablecdn.com/BVP20Z2T1Gb4Pi6rOQah)
 
 ## Exercise 1-3: Inputs
 
@@ -55,25 +47,21 @@ Write a program that prints the number of characters in a user's name. You might
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
+![Alt Image](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
 
 **Warning.** Your program should work for different inputs. e.g. any name that you input.
 
 ### Example Input
 
-```
-Angela
-```
+    Angela
 
 ### Example Output
 
-```
-6
-```
+    6
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV) 
+![Alt Image](https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV) 
 
 ### Hint
 
@@ -90,29 +78,19 @@ Write a program that switches the values stored in the variables a and b.
 
 ### Example Input
 
-```
-a: 3
-```
-
-```
-b: 5
-```
+    a: 3
+    b: 5
 
 ### Example Output
 
-```
-a: 5
-```
-
-```
-b: 3
-```
+    a: 5
+    b: 3
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/tgdNl0iSqK6RpPyYZh9d)
+![Alt Image](https://cdn.fs.teachablecdn.com/tgdNl0iSqK6RpPyYZh9d)
 
 ### Hint
 
-1. You should not have to type any numbers in your code. 
+1. You should not have to type any numbers in your code.
 2. You might need to make some more variables.
