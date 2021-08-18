@@ -14,10 +14,10 @@ Write a program that **converts their scores to grades**. By the end of your pro
 
 This is the scoring criteria:
 
-> Scores 91 - 100: Grade = "Outstanding"
-> Scores 81 - 90: Grade = "Exceeds Expectations"
-> Scores 71 - 80: Grade = "Acceptable"
-> Scores 70 or lower: Grade = "Fail"
+- Scores 91 - 100: Grade = "Outstanding"
+- Scores 81 - 90: Grade = "Exceeds Expectations"
+- Scores 71 - 80: Grade = "Acceptable"
+- Scores 70 or lower: Grade = "Fail"
 
 ### Example Output
 
@@ -28,7 +28,5 @@ This is the scoring criteria:
 ### Hint
 
 1. Remember that looping through a Dictionary will only give you the **keys** and not the values.
-
 2. If in doubt as to why your code is not doing what you expected, you can always print out the intermediate values.
-
 3. At the **end** of your program, the print statement will show the final `student_scores` dictionary, do not change this.
