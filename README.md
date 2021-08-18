@@ -8,6 +8,127 @@
 
 ## Course Resources
 
-
+In the course resources folder, you will find the provided files for the [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/learn) which include a poster for tracking progress, notebook sheets for tracking learning, and other valuable information about the course.
 
 ## Level 1 - Beginner
+
+In this section are days 1-14 in which the course covers the basics in Python programming.
+
+These topics include:
+
+- Variables
+- String Manipulation
+- Dictionaries, Lists, Collections
+- Data Types
+- IF/ELIF/ELSE Conditionals
+- Functions
+- Loops
+- Error Handling
+
+### Day 1 - Working with Variables
+
+
+
+### Day 2 - Understanding Data Types
+
+### Day 3 - Conditionals and Logical Operators
+
+### Day 4 - Randomisation and Lists
+
+### Day 5 - Loops
+
+### Day 6 - Functions & Karel
+
+### Day 7 - Hangman Project
+
+### Day 8 Function Parameters
+
+### Day 9 Dictionaries & Nesting
+
+### Day 10 - Functions with Outputs
+
+### Day 11 - Blackjack
+
+### Day 12 - Scope
+
+### Day 13 - Debugging
+
+### Day 14 - Higher or Lower Project
+
+## Level 2 - Intermediate
+
+In this section are days 15-31 in which the course covers intermediate topics in Python programming.
+
+These topics include:
+
+- Local Dev Environment Setup
+- PyCharm
+- Classes, Methods, Modules
+- Python Turtle
+- Event Listeners
+- Object-Oriented Programming
+- File Directories
+- Game Development
+- Pandas Framework
+- Tkinter
+- JSON
+
+### Day 15
+
+## Level 3 - Advanced
+
+In this section are days 32-58 in which the course covers advanced topics in Python programming.
+
+These topics include:
+
+- APIs
+- HTTP Requests
+- Authentication
+- Web Scraping
+- SMS
+- Web Development with Flask
+- Python Decorators
+- Command Line
+- Templating with Jinja 2
+- WTForms
+
+### Day 32
+
+## Level 4 - Expert
+
+In this section are days 59-80 in which the course covers expert topics in Python programming.
+
+These topics include:
+
+- Building your own REST APIs
+- Databases with SQLite
+- Data Cleaning
+- Dataframes
+- Chaining Functions
+- Matplotlib
+- Creating Charts With Plotly
+- NumPy
+- Seaborn
+- Multi-Variable Regression
+
+### Day 59
+
+
+
+## Level 5 - Portfolio Project
+
+In this section are days 81-101 in which the course covers final projects to develop an electronic portfolio.
+
+These topics include:
+
+- Text to Morse Code Converter
+- Portfolio Website
+- Image Watermarking App
+- Todo List Website
+- Custom Web Scraper
+- Space Invaders Game
+- Custom API Driven Website
+- Custom Browser Automation
+
+### Day 59
+
