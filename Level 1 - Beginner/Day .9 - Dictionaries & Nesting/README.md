@@ -17,3 +17,5 @@
     2. If `NO`:
        1. Find the highest bid in the dictionary
        2. Declare them the winner
+
+![Alt Image](Images/secret_auction_flow_chart.png)
