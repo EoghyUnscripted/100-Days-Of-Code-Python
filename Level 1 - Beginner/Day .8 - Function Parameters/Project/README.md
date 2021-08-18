@@ -47,5 +47,5 @@ How do you get the index of an item in a list: [Finding the index of an item in 
 
 ### Instructions
 
-    1. Combine the encrypt() and decrypt() functions into a single function called caesar().
-    2. Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
+1. Combine the encrypt() and decrypt() functions into a single function called caesar().
+2. Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
