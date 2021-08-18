@@ -27,12 +27,12 @@ INSTRUCTIONS:
 """
 
 import random
-import Packages.hangman_words
-import Packages.hangman_art
+import Modules.hangman_words
+import Modules.hangman_art
 
 lives = 6   # Variable to track lives remaining in game
 
-chosen_word = random.choice(Packages.hangman_words.word_list).upper() # Get a random word from the list
+chosen_word = random.choice(Modules.hangman_words.word_list).upper() # Get a random word from the list
 
 display = []    # Blank list to hold correct guesses
 guess_list = [] # Blank list to store all guesses
@@ -40,14 +40,14 @@ guess_list = [] # Blank list to store all guesses
 for char in chosen_word:
     display.append("_") # Add blanks to display to user for guessing
 
-print(Packages.hangman_art.logo)    # Print Logo at start of game
+print(Modules.hangman_art.logo)    # Print Logo at start of game
 
 end_of_game = False # Sets initial condition for game status
 
 while not end_of_game:  # Loops program until all blanks are filled
 
     guesses = ' '.join(guess_list).upper()
-    print(Packages.hangman_art.stages[lives])    # Print ASCII in current stage
+    print(Modules.hangman_art.stages[lives])    # Print ASCII in current stage
     print(f"\n{' '.join(display)}\n")
     print(f"Your guesses: {guesses}")
     guess = input("\nGuess a letter: ").upper() # Get letter input from user in lowercase
@@ -67,7 +67,7 @@ while not end_of_game:  # Loops program until all blanks are filled
             lives -= 1  # Subtract 1 life
             if lives == 0:    # If no lives remain
                 end_of_game = True  # Set end of game to True
-                print(Packages.hangman_art.stages[lives])    # Print ASCII in current stage
+                print(Modules.hangman_art.stages[lives])    # Print ASCII in current stage
                 print(f"\n{' '.join(display)}\n")
                 print("\nYou lose!\n")
                 exit()  # Stop program
