@@ -5,17 +5,16 @@
 ### Instructions
 
 1. Randomly choose a word from the word_list and assign it to a variable called chosen_word.
-
 2. Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-
 3. Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
 ***Use the code provided -- do not change the existing code!***
 
-    word_list = ["aardvark", "baboon", "camel"]
+```python
+word_list = ["aardvark", "baboon", "camel"]
 
-    # WRITE YOUR CODE HERE
-
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 
@@ -44,10 +43,8 @@ Using the code from 7-1, continue to add to the program for part 2.
 
 1. Create an empty List called display. For each letter in the chosen_word, add a "\_" to 'display'.
    e.g. If the chosen_word was "apple", display should be `["_", "_", "_", "_", "_"]` with 5 "\_" representing each letter to guess.
-
 2. Loop through each position in the chosen_word. If the letter at that position matches 'guess' then reveal that letter in the display at that position.
    e.g. If the user guessed "p" and the chosen word was "apple", then display should be `["_", "p", "p", "_", "_"]`.
-
 3. Print `display` and you should see the guessed letter in the correct position and every other letter replace with "\_".
 
 ### Example Input
@@ -122,10 +119,8 @@ Pssst, the solution is baboon.
 Using the code from 7-3, continue to add to the program for part 4.
 
 1. Create a variable called 'lives' to keep track of the number of lives left. Set 'lives' to equal 6.
-    
 2. If `guess` is not a letter in the chosen_word, then reduce `lives` by 1. 
    If lives goes down to 0, then the game should stop and it should print "You lose."
-
 3. Print the provided ASCII art from `stages` that corresponds to the current number of `lives` the user has remaining.
 
 ### Example Input 1
