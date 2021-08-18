@@ -43,10 +43,7 @@ Note: notice that there is a space between the comma and the next name.
 
 ### Hint
 
-1. You might need the help of the `len()` function.
-
-    [How to get the number of items in a list](https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list)
-
+1. You might need the help of the `len()` function. [How to get the number of items in a list](https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list)
 2. Remember that Lists start at index 0!
 
 ## Exercise 4-3: Treasure Map
@@ -60,17 +57,17 @@ In the starting code, you will find a variable called ```map```.
 This ```map``` contains a nested list.
 When ```map``` is printed this is what the nested list looks like:
 
-    ```Python
-    ['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
-    ```
+```python
+['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
+```
 
 In the starting code, we have used new lines (```\n```) to format the three rows into a square, like this:
 
-    ```Python
-    ['⬜️', '⬜️', '⬜️']
-    ['⬜️', '⬜️', '⬜️']
-    ['⬜️', '⬜️', '⬜️']
-    ```
+```python
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
+```
 
 This is to try and simulate the coordinates on a real map.
 
@@ -92,13 +89,13 @@ column 2, row 3 would be entered as:
 
 ### Example Output 1
 
-    ```Python
-    ['⬜️', '⬜️', '⬜️']
+```python
+['⬜️', '⬜️', '⬜️']
 
-    ['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
 
-    ['⬜️', 'X', '⬜️']
-    ```
+['⬜️', 'X', '⬜️']
+```
 
 ### Example Input 2
 
@@ -108,13 +105,13 @@ column 3, row 1 would be entered as:
 
 ### Example Output 2
 
-    ```Python
-    ['⬜️', '⬜️', 'X']
+```python
+['⬜️', '⬜️', 'X']
 
-    ['⬜️', '⬜️', '⬜️']
+['⬜️', '⬜️', '⬜️']
 
-    ['⬜️', '⬜️', '⬜️']
-    ```
+['⬜️', '⬜️', '⬜️']
+```
 
 e.g. When you hit **run**, this is what should happen:
 
@@ -123,5 +120,4 @@ e.g. When you hit **run**, this is what should happen:
 ### Hint
 
 1. Remember that Lists start at index 0!
-
 2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.
