@@ -43,11 +43,9 @@ e.g. When you hit **run**, there should be no errors and this is what should hap
 
 ### Instructions
 
-Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string. 
+Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string.
 
-e.g. When you hit **run**, this is what should happen:
-
-[How to get the length of a string in Python](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
+Check out this link: [How to get the length of a string in Python](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
 
 **Warning.** Your program should work for different inputs.
 
@@ -63,7 +61,7 @@ e.g. When you hit **run**, this is what should happen:
 
 e.g. When you hit **run**, this is what should happen:
 
-![Alt Image](https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV) 
+![Alt Image](https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV)
 
 ### Hint
 
@@ -74,7 +72,7 @@ e.g. When you hit **run**, this is what should happen:
 
 ### Instructions
 
-Write a program that switches the values stored in the variables a and b. 
+Write a program that switches the values stored in the variables a and b.
 
 **Warning.** Do not change the code provided. Your program should work for different inputs. e.g. any value of a and b.
 
