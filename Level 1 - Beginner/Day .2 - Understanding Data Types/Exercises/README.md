@@ -44,11 +44,11 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 
 ### Example Input
 
-    ```Python
+    ```python
     weight = 80
     ```
 
-    ```Python
+    ```python
     height = 1.75
     ```
 
