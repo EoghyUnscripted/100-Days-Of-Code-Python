@@ -38,8 +38,8 @@ COMMENTS:
 
 """
 
-from Packages.art import logo
-from Packages.data import alphabet
+from Modules.art import logo
+from Modules.data import alphabet
 
 def caesar(direction, message, word_shift):
 
