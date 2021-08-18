@@ -177,7 +177,5 @@ e.g. When you hit **run**, this is what should happen:
 
 ### Hint
 
-1. Try to visualise the rules by creating a flow chart on www.draw.io
-2. If you really get stuck, you can see the flow chart I created:
-
-    [Flow Chart](https://bit.ly/36BjS2D)
+1. Try to visualise the rules by creating a flow chart on [draw.io](www.draw.io)
+2. If you really get stuck, you can see the flow chart I created: [Flow Chart](https://bit.ly/36BjS2D)
