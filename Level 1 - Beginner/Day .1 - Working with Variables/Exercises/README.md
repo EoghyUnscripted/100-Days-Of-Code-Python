@@ -47,9 +47,11 @@ Write a program that prints the number of characters in a user's name. You might
 
 e.g. When you hit **run**, this is what should happen:
 
-![Alt Image](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
+[How to get the length of a string in Python](https://www.google.com/search?sxsrf=ACYBGNRxEaJIWyKHuWI0Lk24t4KuZVyeew:1579706585702&q=how+to+get+the+length+of+a+string+in+python+stack+overflow)
 
-**Warning.** Your program should work for different inputs. e.g. any name that you input.
+**Warning.** Your program should work for different inputs.
+
+    e.g. Any name that you input.
 
 ### Example Input
 
