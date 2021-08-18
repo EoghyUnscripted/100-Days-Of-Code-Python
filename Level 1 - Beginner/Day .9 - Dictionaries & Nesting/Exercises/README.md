@@ -43,10 +43,10 @@ Write a function that will work with the following line of code on line 21 to ad
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 ```
 
-**DO NOT** modify the `travel_log` directly. You need to create a function that modifies it.
-
     You've visited Russia 2 times.
     You've been to Moscow and Saint Petersburg.
+
+**DO NOT** modify the `travel_log` directly. You need to create a function that modifies it.
 
 ### Hint
 
