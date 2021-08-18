@@ -55,20 +55,19 @@ e.g. When you hit **run**, this is what should happen:
 ### Hint
 
 1. All even numbers can be divided by 2 with 0 remainder.
-
 2. Try some using the modulo with some odd numbers e.g.
 
         3 % 2
         5 % 2
         7 % 2
 
-Then try using the modulo with some even numbers e.g.
+    Then try using the modulo with some even numbers e.g.
 
-    4 % 2
-    6 % 2
-    8 % 2
+        4 % 2
+        6 % 2
+        8 % 2
 
-See what's in common each time.
+    See what's in common each time.
 
 ## Exercise 3-2: BMI Calculator 2.0
 
@@ -94,13 +93,13 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 
 ### Example Input
 
-    ```Python
-    weight = 85
-    ```
+```python
+weight = 85
+```
 
-    ```Python
-    height = 1.75
-    ```
+```python
+height = 1.75
+```
 
 ### Example Output
 
@@ -123,9 +122,7 @@ Your code should be formatted like the lines below:
 ### Hint
 
 1. Try to use the **exponent** operator in your code.
-
 2. Remember to **round** your result to the nearest whole number.
-
 3. Make sure you include the words in **bold** from the interpretations.
 
 ## Exercise 3-3: Leap Year
@@ -181,7 +178,6 @@ e.g. When you hit **run**, this is what should happen:
 ### Hint
 
 1. Try to visualise the rules by creating a flow chart on www.draw.io
-
 2. If you really get stuck, you can see the flow chart I created:
 
     [Flow Chart](https://bit.ly/36BjS2D)
