@@ -22,7 +22,7 @@ Average height rounded to the nearest whole number = **164**
 
 #### Code
 
-Use the provided code to complete the program.
+Use the provided code to complete the exercise.
 
 ```python
 student_heights = input("Input a list of student heights ").split()
@@ -67,7 +67,7 @@ You are going to write a program that calculates the highest score from a List o
 
 #### Code
 
-Use the provided code to complete the program.
+Use the provided code to complete the exercise.
 
 ```python
 student_scores = input("Input a list of student scores ").split()
