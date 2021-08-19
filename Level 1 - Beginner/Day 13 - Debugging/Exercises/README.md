@@ -1,19 +1,7 @@
-# Day X 
+# Day 13 Debugging
 
-## Exercise X-Y: 
+## Overview
+
+## Project: 
 
 ### Instructions
-
-
-
-### Example Input
-
-
-
-### Example Output
-
-
-
-### Hint
-
-
