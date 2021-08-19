@@ -29,6 +29,9 @@ These topics include:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
+* Exercise 1.1 - Printing to the Console
+  - Learn how to use the `print()` function
+
 #### Exercise 1.1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
