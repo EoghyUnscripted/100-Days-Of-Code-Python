@@ -1,11 +1,30 @@
-# Day #
+# Day 5 Loops
 
 ## Overview
 
-## Project: Rock, Paper, Scissors
+Day 5 starts with using FOR, and IF loops, including the `range()` function to cycle through lists.
+
+    Exercise 5.1 - Calculate the average height from a user input list of numbers
+    Exercise 5.2 - Calculate the highest score from a user input list of numbers
+    Exercise 5.3 - Loop through even numbers and sum them
+    Exercise 5.4 - Loop through numbers and calculate if divisible by 3, 5, or both and output Fizz, Buzz, or FizzBuzz
+
+## Project: Password Generator
+
+Using what was learned from the exercises, the project for Day 5 was to build a Password Generator app. The app would ask the user how many letters, numbers, and symbols that they want and output a password for the user.
 
 ### Instructions
 
+Create a program that accepts input for count of letters, numbers and symbols.
+The program will use pre-existing lists to randomly select from each to generate a password.
+
+Easy Level: Cycle sequentially through letters, numbers then symbols to create a password
+
+    hsjE32#$
+
+Hard Level: Cycle randomly through letters, numbers then symbols to create a password
+
+    0$nD3@ca
 
 #### Code
 

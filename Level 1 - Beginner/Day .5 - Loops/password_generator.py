@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,35 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 5
 PROJECT: PASSWORD GENERATOR
 LEVEL: BEGINNER
-
-INSTRUCTIONS:
-
-    Create a program that accepts input for count of letters, numbers and symbols.
-    The program will use pre-existing lists to randomly select from each to generate a password.
-
-    Easy Level:
-    Cycle sequentially through letters, numbers then symbols to create a password
-        i.e. hsjE32#$
-
-    Hard Level:
-    Cycle randomly through letters, numbers then symbols to create a password
-        i.e. 0$nD3@ca
-
-    Use the code provided -- do not change the existing code!
-
-    CODE:
-
-    import random
-    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 
-               'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
-               'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
-
-    print("Welcome to the PyPassword Generator!")
-    nr_letters= int(input("How many letters would you like in your password?\n")) 
-    nr_symbols = int(input(f"How many symbols would you like?\n"))
-    nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 """
 
