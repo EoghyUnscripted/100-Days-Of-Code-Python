@@ -1,5 +1,9 @@
 # Day 7 Hangman
 
+## Overview
+
+## Project: Hangman Game
+
 ### Instructions
 
 Using the code from 7-1 to 7-4, continue to add final touches to the program for the final project.

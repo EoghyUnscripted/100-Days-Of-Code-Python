@@ -1,4 +1,8 @@
-# Day 9 Secret Auction
+# Day 9 Dictionaries & Nesting
+
+## Overview
+
+## Project: Secret Auction
 
 ### Instructions
 
