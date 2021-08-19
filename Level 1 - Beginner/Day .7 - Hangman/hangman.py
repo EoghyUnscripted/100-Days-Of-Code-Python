@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,16 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 7
 PROJECT: HANGMAN
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    Using the code from 7-1 to 7-4, continue to add final touches to the program for the final project.
-
-    Step 1 - Update the word list to use the 'word_list' from hangman_words.py file.
-    Step 2 - Import the stages from the hangman_art.py file.
-    Step 3 - Import the logo from hangman_art.py and print it at the start of the game.
-    Step 4 - If the user has entered a letter they've already guessed, print the letter and let them know.
-    Step 5 - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
 
 """
 

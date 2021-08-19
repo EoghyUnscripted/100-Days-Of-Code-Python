@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,15 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 7
 PROJECT: 7-3 Hangman: Checking If User Has Won
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    Using the code from 7-2, continue to add to the program for part 3.
-
-    Step 1 - Use a while loop to let the user guess again. The loop should only 
-             stop once the user has guessed all the letters in the chosen_word and 
-             'display' has no more blanks ("_"). 
-             Then you can tell the user they've won.
 
 """
 

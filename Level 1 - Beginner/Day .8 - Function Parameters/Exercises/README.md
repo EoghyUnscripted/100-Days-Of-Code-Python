@@ -18,6 +18,15 @@ But because you can't buy 0.6 of a can of paint, the **result should be rounded 
 
 **IMPORTANT:** Notice the name of the function and parameters must match those on line 13 for the code to work.
 
+### Code
+
+```python
+# WRITE YOUR CODE HERE
+
+n = int(input("Check this number: "))
+prime_checker(number=n)
+```
+
 ### Example Input
 
 ```python

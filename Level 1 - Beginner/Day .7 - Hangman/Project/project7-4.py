@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,19 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 7
 PROJECT: 7-4 Hangman: Tracking Players' Lives Remaining
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    Using the code from 7-3, continue to add to the program for part 4.
-
-    Step 1 - Create a variable called 'lives' to keep track of the number of lives left. 
-             Set 'lives' to equal 6.
-    
-    Step 2 - If guess is not a letter in the chosen_word,
-             Then reduce 'lives' by 1. 
-             If lives goes down to 0 then the game should stop and it should print "You lose."
-
-    Step 3 - Print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
 
 """
 
