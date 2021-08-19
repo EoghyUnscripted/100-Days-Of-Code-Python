@@ -21,3 +21,38 @@ Using what was learned from the exercises, the project for Day 4 was to build a 
         Rock beats Scissors
         Scissors beats Paper
         Paper beats Rock
+
+#### Code
+
+Use the provided code to complete the project.
+
+```python
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+# WRITE YOUR CODE HERE
+```
