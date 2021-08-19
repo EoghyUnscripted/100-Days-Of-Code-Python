@@ -11,6 +11,8 @@ Day 1 starts with the `print()` and `input()` functions, and working with variab
 
 ## Project: Band Name Generator
 
+Using what was learned from the exercises, the project for Day 1 was to build a Band Name Generator. This program would ask a user to input some information, and it would generate a band name suggestion.
+
 ### Instructions
 
 1. Create a greeting for your program.
