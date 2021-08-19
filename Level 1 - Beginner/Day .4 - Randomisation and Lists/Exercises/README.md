@@ -10,7 +10,6 @@ You are going to write a virtual coin toss program. It will randomly tell the us
 
 There are many ways of doing this. But to practice what we learnt in the last lesson, you should generate a random number, either 0 or 1. Then use that number to print out Heads or Tails.
 
-    e.g.
     1 means Heads
     0 means Tails
 
@@ -30,6 +29,15 @@ You are going to write a program which will select a random name from a list of 
 The person selected will have to pay for everybody's food bill.
 
 **Important**: You are not allowed to use the `choice()` function.
+
+#### Code
+
+```python
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 
@@ -81,6 +89,18 @@ First your program must take the user input and convert it to a usable format.
 
 Next, you need to use it to update your nested list with an "x".
 
+#### Code
+
+```python
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+
+# WRITE YOUR CODE HERE
+```
 ### Example Input 1
 
 column 2, row 3 would be entered as:
