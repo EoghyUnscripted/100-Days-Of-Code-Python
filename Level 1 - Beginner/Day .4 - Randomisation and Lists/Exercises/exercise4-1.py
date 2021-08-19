@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -14,15 +12,11 @@ DAY: 4
 EXERCISE: 4-1 Heads or Tails
 LEVEL: Beginner
 
-INSTRUCTIONS:
-
-    You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails". 
-
 """
 
 import random
 
-toss = random.randint(0,1)
+toss = random.randint(0,1)  # Get random number of 0 or 1
 
 if toss == 0:
   print("Heads")
