@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -14,21 +12,9 @@ DAY: 3
 EXERCISE: 3-1 Odd or Even
 LEVEL: Beginner
 
-INSTRUCTIONS:
-
-    Write a program that works out whether if a given number is an odd or even number.
-
-    Use the code provided -- do not change the existing code!
-
-    CODE:
-
-        number = int(input("Which number do you want to check? "))
-
-        # WRITE YOUR CODE HERE
-
 """
 
-number = int(input("Which number do you want to check? "))
+number = int(input("Which number do you want to check? "))  # Get user input
 
 # Check if divides by 2
 if number % 2 == 0:
