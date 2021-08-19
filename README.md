@@ -43,8 +43,6 @@ These topics include:
 - Tkinter
 - JSON
 
-### Day 15
-
 ## Level 3 - Advanced
 
 In this section are days 32-58 in which the course covers advanced topics in Python programming.
