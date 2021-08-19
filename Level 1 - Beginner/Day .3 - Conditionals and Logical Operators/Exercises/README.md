@@ -32,6 +32,14 @@ e.g. 6 ÷ 2 = 3 with no remainder.
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
+#### Code
+
+```python
+number = int(input("Which number do you want to check? "))
+
+# WRITE YOUR CODE HERE
+```
+
 ### Example Input 1
 
     43
@@ -90,6 +98,15 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 ![Alt Image](https://cdn.fs.teachablecdn.com/jKHjnLrNQjqzdz3MTMyv)
 
 **Warning** you should **round** the result to the nearest whole number. The interpretation message needs to include the words in bold from the interpretations above. e.g. **underweight, normal weight,  overweight, obese, clinically obese**.
+
+#### Code
+
+```python
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 
@@ -154,6 +171,14 @@ But the year 2100 is not a leap year because:
     2100 ÷ 400 = 5.25 (Not Leap)
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
+
+#### Code
+
+```python
+year = int(input("Which year do you want to check? "))
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input 1
 
