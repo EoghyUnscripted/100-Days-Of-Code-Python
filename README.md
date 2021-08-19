@@ -27,7 +27,11 @@ These topics include:
 
 ### Day 1 - Working with Variables
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo. Aliquam erat volutpat. Aliquam erat volutpat. Sed suscipit, lectus eget ultrices tincidunt, purus massa pretium velit, a mollis mauris turpis in est. Nam quis elit non magna laoreet accumsan. Sed tincidunt sapien neque, in vehicula magna viverra id. Fusce ut ipsum finibus, scelerisque ante eu, dapibus magna. Nunc aliquam, sem sed vestibulum fermentum, magna odio pharetra ligula, eget imperdiet massa diam quis lacus. Quisque id mi in massa viverra tincidunt. Phasellus ac diam ligula. In ac dui at est placerat dignissim. Nam pretium mollis tellus, et sodales nibh tempus eu. Aliquam volutpat est orci, eu rutrum lacus venenatis id.
 
+#### Exercise 1.1
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo. Aliquam erat volutpat. Aliquam erat volutpat. Sed suscipit, lectus eget ultrices tincidunt, purus massa pretium velit, a mollis mauris turpis in est. Nam quis elit non magna laoreet accumsan. Sed tincidunt sapien neque, in vehicula magna viverra id. Fusce ut ipsum finibus, scelerisque ante eu, dapibus magna. Nunc aliquam, sem sed vestibulum fermentum, magna odio pharetra ligula, eget imperdiet massa diam quis lacus. Quisque id mi in massa viverra tincidunt. Phasellus ac diam ligula. In ac dui at est placerat dignissim. Nam pretium mollis tellus, et sodales nibh tempus eu. Aliquam volutpat est orci, eu rutrum lacus venenatis id.
 
 ### Day 2 - Understanding Data Types
 
@@ -130,5 +134,5 @@ These topics include:
 - Custom API Driven Website
 - Custom Browser Automation
 
-### Day 59
+### Day 81
 
