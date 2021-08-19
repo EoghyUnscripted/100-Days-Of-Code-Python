@@ -29,58 +29,69 @@ These topics include:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
-* Exercise 1.1 - Printing to the Console
-  - Learn how to use the `print()` function
-
-#### Exercise 1.1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
-
-#### Exercise 1.2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
-
-#### Exercise 1.3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
-
-#### Exercise 1.4
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
-
+- Exercise 1.1 - Printing to the Console
+  - Work with the `print()` function
+- Exercise 1.2 - Debugging
+  - t
+- Exercise 1.3 - Inputs
+  - t
+- Exercise 1.4 - Variables
+  -  t
 #### Band Name Generator
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+Using what was learned from the exercises, the project for Day 1 was to build a Band Name Generator. This program would ask a user to input some information, and it would generate a band name suggestion.
 
 ### Day 2 - Understanding Data Types
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 3 - Conditionals and Logical Operators
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 4 - Randomisation and Lists
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 5 - Loops
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 6 - Functions & Karel
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 7 - Hangman Project
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 8 Function Parameters
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 9 Dictionaries & Nesting
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 10 - Functions with Outputs
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 11 - Blackjack
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ### Day 12 - Scope
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 13 - Debugging
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
+
 ### Day 14 - Higher or Lower Project
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
 ## Level 2 - Intermediate
 
