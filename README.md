@@ -29,10 +29,10 @@ These topics include:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero nec ultrices posuere. Integer arcu risus, rutrum a interdum sed, venenatis vel justo.
 
-- Exercise 1.1 - Printing to the Console: Work with the `print()` function
-- Exercise 1.2 - Debugging: Learn how to identify and fix bugs in syntax
-- Exercise 1.3 - Inputs: Work with the `input()` function
-- Exercise 1.4 - Variables: Creating, updating, and using variables
+    Exercise 1.1 - Printing to the Console: Work with the `print()` function
+    Exercise 1.2 - Debugging: Learn how to identify and fix bugs in syntax
+    Exercise 1.3 - Inputs: Work with the `input()` function
+    Exercise 1.4 - Variables: Creating, updating, and using variables
 
 #### Band Name Generator
 
