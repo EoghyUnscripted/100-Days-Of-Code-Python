@@ -10,6 +10,8 @@ Write a program that adds the digits in a 2 digit number. e.g. if the input was 
 
 #### Code
 
+Use the provided code to complete the exercise.
+
 ```python
 two_digit_number = input("Type a two digit number: ")
 
@@ -51,6 +53,8 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 **Warning** you should convert the result to a whole number.
 
 #### Code
+
+Use the provided code to complete the exercise.
 
 ```python
 height = input("enter your height in m: ")
@@ -101,6 +105,8 @@ Where x, y and z are replaced with the actual calculated numbers.
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
 #### Code
+
+Use the provided code to complete the exercise.
 
 ```python
 age = input("What is your current age? ")
