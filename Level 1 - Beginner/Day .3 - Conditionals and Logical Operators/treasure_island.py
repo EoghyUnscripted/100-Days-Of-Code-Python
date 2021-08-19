@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,12 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 3
 PROJECT: TREASURE ISLAND
 LEVEL: BEGINNER
-
-INSTRUCTIONS:
-
-    1. Create a storyline for your treasure hunt adventure
-    2. Using if loops, ask for users to make choices for the story along the way
-    3. With each choice, the user will progress until they find the treasure, or choose wrong
 
 """
 
