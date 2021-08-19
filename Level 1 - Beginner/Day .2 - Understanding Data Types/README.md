@@ -14,6 +14,8 @@ Using what was learned from the exercises, the project for Day 3 was to build a 
 
 ### Instructions
 
+Calculate the bill and the split after tip between the number of people paying the bill.
+
 If the bill was $150.00, split between 5 people, with 12% tip:
 
 - Each person should pay (150.00 / 5) * 1.12 = 33.6
