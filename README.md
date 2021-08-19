@@ -32,11 +32,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis libero n
 - Exercise 1.1 - Printing to the Console
   - Work with the `print()` function
 - Exercise 1.2 - Debugging
-  - t
+  - Learn how to identify and fix bugs in syntax
 - Exercise 1.3 - Inputs
-  - t
+  - Work with the `input()` function
 - Exercise 1.4 - Variables
-  -  t
+  - Creating, updating, and using variables
+
 #### Band Name Generator
 
 Using what was learned from the exercises, the project for Day 1 was to build a Band Name Generator. This program would ask a user to input some information, and it would generate a band name suggestion.
