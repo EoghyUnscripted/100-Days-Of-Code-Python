@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,14 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 1
 EXERCISE: 1-1 Printing to the Console
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    Write a program that prints the following:
-
-        Day 1 - Python Print Function
-        The function is declared like this:
-        print('what to print')
 
 """
 
