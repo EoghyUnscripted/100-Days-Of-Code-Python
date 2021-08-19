@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,11 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 8
 PROJECT: 8-3 Caesar Cipher: Reorganising the Code
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    1. Combine the encrypt() and decrypt() functions into a single function called caesar().
-    2. Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
 
 """
 

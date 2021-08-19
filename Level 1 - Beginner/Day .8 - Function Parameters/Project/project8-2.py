@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,16 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 8
 PROJECT: 8-2 Caesar Cipher: Decryption
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    Using the code from 8-1, continue to add to the program for part 2.
-
-    1. Create a different function called `decrypt` that takes the 'text' and 'shift' as inputs.
-    2. Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
-    3. Check if the user wanted to encrypt or decrypt the message by checking the 'direction' variable. 
-        a. Then call the correct function based on that 'drection' variable.
-        b. You should be able to test the code to encrypt *AND* decrypt a message.
 
 """
 

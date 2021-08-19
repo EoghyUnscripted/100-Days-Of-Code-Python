@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,21 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 9
 PROJECT: Secret Auction
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-1. Import and print the logo from art.py when the program starts.
-2. Get user input for:
-    i. Name (key)
-    ii. Bid Amount (value)
-3. Add name and bid amount to a dictionary as key and value
-4. Ask if there are any other users who want to bid
-    i. If `YES`:
-       1. Clear the screen
-       2. Loop again
-    ii. If `NO`:
-       1. Find the highest bid in the dictionary
-       2. Declare them the winner
 
 """
 

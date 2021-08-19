@@ -8,6 +8,14 @@ Write a program that adds the digits in a 2 digit number. e.g. if the input was 
 
 **Warning.** Do not change the code provided. Your program should work for different inputs. e.g. any two-digit number.
 
+#### Code
+
+```python
+two_digit_number = input("Type a two digit number: ")
+
+# WRITE YOUR CODE HERE
+```
+
 ### Example Input
 
     39
@@ -41,6 +49,15 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 ![Alt Image](https://cdn.fs.teachablecdn.com/jKHjnLrNQjqzdz3MTMyv)
 
 **Warning** you should convert the result to a whole number.
+
+#### Code
+
+```python
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 
@@ -82,6 +99,14 @@ It will take your current age as the input and output a message with our time le
 Where x, y and z are replaced with the actual calculated numbers.
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
+
+#### Code
+
+```python
+age = input("What is your current age? ")
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 

@@ -1,9 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-
 COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION: 
@@ -13,12 +11,6 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 8
 PROJECT: 8-1 Caesar Cipher: Encryption
 LEVEL: Beginner
-
-INSTRUCTIONS:
-
-    1. Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
-    2. Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.  
-    3. Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message. 
 
 """
 
