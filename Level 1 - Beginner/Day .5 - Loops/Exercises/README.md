@@ -20,6 +20,19 @@ Average height rounded to the nearest whole number = **164**
 
 **Important** You should not use the `sum()` or `len()` functions in your answer. You should try to replicate their functionality using what you have learnt about for loops.
 
+#### Code
+
+Use the provided code to complete the program.
+
+```python
+student_heights = input("Input a list of student heights ").split()
+
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+# WRITE YOUR CODE HERE
+```
+
 ### Example Input
 
 # Example Input
@@ -51,6 +64,21 @@ You are going to write a program that calculates the highest score from a List o
 **Important** you are not allowed to use the max or min functions. The output words must match the example.
 
     i.e The highest score in the class is: x
+
+#### Code
+
+Use the provided code to complete the program.
+
+```python
+student_scores = input("Input a list of student scores ").split()
+
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+
+print(student_scores)
+
+# WRITE YOUR CODE HERE
+```
 
 ### Example Input
 

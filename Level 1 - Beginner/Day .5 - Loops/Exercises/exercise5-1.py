@@ -14,18 +14,18 @@ LEVEL: Beginner
 
 """
 
-student_heights = input("Input a list of student heights ").split()
+student_heights = input("Input a list of student heights ").split() # Get list of heights
 
-for n in range(0, len(student_heights)):
-    student_heights[n] = int(student_heights[n])
+for n in range(0, len(student_heights)):    # Loop through heights
+    student_heights[n] = int(student_heights[n])    # Convert to integers
 
-heightSum = 0
-count = 0
+heightSum = 0   # Set blank variable to hold sum of heights
+count = 0   # Set blank variable to hold count of heights
 
-for h in student_heights:
+for h in student_heights:   # Loop through heights
     heightSum += h # Get sum of all heights
     count += 1 # Get count of all heights
 
 avgHeight = round(int(heightSum/count)) # Get the average height
-print(f"The average height is: {avgHeight}")
+print(f"The average height is: {avgHeight}")    # Output the average height
     
