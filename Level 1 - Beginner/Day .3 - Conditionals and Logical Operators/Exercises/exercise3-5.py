@@ -12,17 +12,19 @@ DAY: 3
 EXERCISE: 3-5 Love Calculator
 LEVEL: Beginner
 
-T occurs 0 times
-R occurs 1 time
-U occurs 2 times
-E occurs 2 times
-Total = 5
+COMMENT:
 
-L occurs 1 time
-O occurs 0 times
-V occurs 0 times
-E occurs 2 times
-Total = 3
+    There are better ways to do this using lists, but due to progression style of the course,
+    I kept things basic to what was already learned along the way.
+
+    I would create another variable to include the search term(s), then split that into elements
+    in a list. From there I would combine the names into another list.
+
+    Once that is done, I would use for loops to cycle through the lists and get total counts of
+    each letter in the names found in the search terms. This would produce the same score result.
+
+    It would also allow the user or to change the search term if they wanted, or if set in the
+    source code, the developer can change the search term without disrupting the program.
 
 """
 
