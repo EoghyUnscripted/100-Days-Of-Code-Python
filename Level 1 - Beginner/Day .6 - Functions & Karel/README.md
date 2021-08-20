@@ -2,7 +2,16 @@
 
 ## Overview
 
+Day 6 starts with developing new functions to perform repeated codes. These codes are then used with Karel to test using visuals.
+
+    Exercise 6.1 - Create a jump() function to move the Karel robot over a set number of walls
+    Exercise 6.2 - Modify code to test if the Karel robot lands on a randomly placed flag
+    Exercise 6.3 - Modify code to move the Karel robot over a random amount of walls
+    Exercise 6.4 - Update the code with additional functions to move the Karel robot over random amount of walls and heights
+
 ## Project: Escape the Maze
+
+Using what was learned from the exercises, the project for Day 6 was to build a final code using functions to dynamically move the Karel robot around a maze. To do this, the code must detect the placements of walls and blockages to determine how to move the robot to navigate. The robot should end at the exit of the maze where a flag is placed.
 
 ### Instructions
 
