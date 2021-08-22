@@ -19,9 +19,28 @@ This is the scoring criteria:
 - Scores 71 - 80: Grade = "Acceptable"
 - Scores 70 or lower: Grade = "Fail"
 
+#### Code
+
+Use the provided code to complete the exercise.
+
+```python
+student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99, 
+  "Draco": 74,
+  "Neville": 62,
+}
+
+# TODO Create an empty dictionary called student_grades.
+# TODO Write your code below to add the grades to student_grades.
+
+print(student_grades)
+```
+
 ### Example Output
 
-```Python
+```python
 '{'Harry': 'Exceeds Expectations', 'Ron': 'Acceptable', 'Hermione': 'Outstanding', 'Draco': 'Acceptable', 'Neville': 'Fail'}'
 ```
 
@@ -47,6 +66,27 @@ add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
     You've been to Moscow and Saint Petersburg.
 
 **DO NOT** modify the `travel_log` directly. You need to create a function that modifies it.
+
+#### Code
+
+Use the provided code to complete the exercise.
+
+```python
+travel_log = [
+{
+  "country": "France",
+  "visits": 12,
+  "cities": ["Paris", "Lille", "Dijon"]
+},
+{
+  "country": "Germany",
+  "visits": 5,
+  "cities": ["Berlin", "Hamburg", "Stuttgart"]
+},
+]
+
+# TODO Write the function that will allow new countries to be added to the travel_log.
+```
 
 ### Hint
 

@@ -2,7 +2,14 @@
 
 ## Overview
 
+Day 9 starts with using dictionaries and lists and learning how to nest them. From there we move into building a Secret Auction appliction.
+
+    Exercise 9.1 - Create a program that takes student grades from a dictionary and populates a new one with the converted grade levels
+    Exercise 9.2 - Build a function that accepts a nested dictionary and adds it to an existing dictionary nested within a list
+
 ## Project: Secret Auction
+
+Using what was learned from the exercises, the final project for Day 9 was to build a Secret Auction program. The program would allow bidders to enter their name and bid amount and hide the console data if there were more bids to be entered. The final output would get the highest bid and output the name and bid amount for the winner.
 
 ### Instructions
 
