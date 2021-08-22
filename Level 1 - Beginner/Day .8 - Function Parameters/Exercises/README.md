@@ -20,6 +20,8 @@ But because you can't buy 0.6 of a can of paint, the **result should be rounded 
 
 ### Code
 
+Use the provided code to complete the exercise.
+
 ```python
 # WRITE YOUR CODE HERE
 
@@ -65,6 +67,17 @@ But 4 is not a prime number because you can divide it by 1, 2 or 4.
 Here are the numbers up to 100, prime numbers are highlighted in yellow:
 
 ![Alt Image](https://cdn.fs.teachablecdn.com/NZqVclSt2qAe8KhTsUtw)
+
+#### Code
+
+Use the provided code to complete the exercise.
+
+```python
+# WRITE YOUR CODE HERE
+
+n = int(input("Check this number: "))
+prime_checker(number=n)
+```
 
 ### Example Input 1
 
