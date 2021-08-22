@@ -23,11 +23,6 @@ shift = int(input("Type the shift number:\n"))
 
 def caesar(direction, message, word_shift):
 
-    """     # Tests if the shift input is greater than the range available
-    if word_shift > len(alphabet):
-        print(f"Please choose a number between 1 and {len(alphabet)}.")
-        exit()  # Exits the program """
-
     caesar_text = ""   # Holds the output string
 
     # Shifts the letter placements in the recoded list
