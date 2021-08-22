@@ -25,6 +25,58 @@ Using the code from 7-1 to 7-4, continue to add final touches to the program for
    1. The course instructions say to subtract a life from the user, but I chose to allow the user to guess again.
    2. In the next iteration, I will update the stages ASCII to allow for more lives as I would do when I was a kid.
 
+#### Code
+
+```python
+import random
+
+# TODO Update the word list to use the 'word_list' from hangman_words.py
+#      Delete this line: word_list = ["ardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
+
+end_of_game = False
+lives = 6
+
+# TODO Import the logo from hangman_art.py and print it at the start of the game.
+
+# Create blanks
+display = []
+for _ in range(word_length):
+    display += "_"
+
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+
+    # TODO If the user has entered a letter they've already guessed, print the letter and let them know.
+
+    # Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        if letter == guess:
+            display[position] = letter
+
+    # Check if user is wrong.
+    if guess not in chosen_word:
+        #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You lose.")
+
+    # Join all the elements in the list and turn it into a String.
+    print(f"{' '.join(display)}")
+
+    # Check if user has got all letters.
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
+
+    # TODO Import the stages from hangman_art.py.
+    print(stages[lives])
+```
+
 ### Example Gameplay
 
 [Hangman Demo](https://replit.com/@appbrewery/Day-7-Hangman-5-End?embed=1&output=1#main.py)

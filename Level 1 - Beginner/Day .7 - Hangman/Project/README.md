@@ -8,6 +8,8 @@
 2. Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 3. Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
+#### Code
+
 ***Use the code provided -- do not change the existing code!***
 
 ```python
@@ -47,6 +49,33 @@ Using the code from 7-1, continue to add to the program for part 2.
    e.g. If the user guessed "p" and the chosen word was "apple", then display should be `["_", "p", "p", "_", "_"]`.
 3. Print `display` and you should see the guessed letter in the correct position and every other letter replace with "\_".
 
+
+#### Code
+
+Use the provided code to complete the exercise.
+
+```python
+import random
+word_list = ["aardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+
+#Testing code
+print(f'Pssst, the solution is {chosen_word}.')
+
+# TODO Create an empty List called display.
+
+guess = input("Guess a letter: ").lower()
+
+# Loop through each position in the chosen_word to match guessed letter and position
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
+    else:
+        print("Wrong")
+
+# TODO Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
+```
+
 ### Example Input
 
 Pssst, the solution is aardvark.
@@ -65,8 +94,38 @@ Pssst, the solution is aardvark.
 
 Using the code from 7-2, continue to add to the program for part 3.
 
-1. Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 
-   `display` has no more blanks ("_"). Then you can tell the user they've won.
+1. Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and `display` has no more blanks ("_"). Then you can tell the user they've won.
+
+#### Code
+
+Use the provided code to complete the exercise.
+
+```python
+import random
+word_list = ["aardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
+
+#Testing code
+print(f'Pssst, the solution is {chosen_word}.')
+
+display = []
+for _ in range(word_length):
+    display += "_"
+
+# TODO Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 'display' has no more blanks ("_").
+
+guess = input("Guess a letter: ").lower()
+
+# Check guessed letter
+for position in range(word_length):
+    letter = chosen_word[position]
+    print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+    if letter == guess:
+        display[position] = letter
+
+print(display)
+```
 
 ### Example Input
 
@@ -122,6 +181,109 @@ Using the code from 7-3, continue to add to the program for part 4.
 2. If `guess` is not a letter in the chosen_word, then reduce `lives` by 1. 
    If lives goes down to 0, then the game should stop and it should print "You lose."
 3. Print the provided ASCII art from `stages` that corresponds to the current number of `lives` the user has remaining.
+
+#### Code
+
+```python
+import random
+
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+end_of_game = False
+word_list = ["ardvark", "baboon", "camel"]
+chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
+
+# TODO Create a variable called 'lives' to keep track of the number of lives left. 
+# Set 'lives' to equal 6.
+
+# Testing code
+print(f'Pssst, the solution is {chosen_word}.')
+
+# Create blanks
+display = []
+for _ in range(word_length):
+    display += "_"
+
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+
+    # Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        if letter == guess:
+            display[position] = letter
+
+    # TODO  If guess is not a letter in the chosen_word,
+    #       Then reduce 'lives' by 1. 
+    #       If lives goes down to 0 then the game should stop and it should print "You lose."
+
+    # Join all the elements in the list and turn it into a String.
+    print(f"{' '.join(display)}")
+
+    # Check if user has got all letters.
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
+
+    # TODO Print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
+```
 
 ### Example Input 1
 
