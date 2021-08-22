@@ -29,6 +29,4 @@ if year % 4 == 0:
     # If does not also divide by 100
     else:
         print("Leap year.")
-# If year only divies by 4
-else:
-        print("Leap year.")
+        
