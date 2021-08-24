@@ -37,6 +37,7 @@
    2. Should ask a user if they want to:
       1. `Y`, continue calculating with previous results
       2. `N`, continue calculating with a new calulation
+      3. `Enter`, to exit
 
 3. Shorten the repetitive code by:
    1. Changing the existing code to adjust for the new processes in step 1
