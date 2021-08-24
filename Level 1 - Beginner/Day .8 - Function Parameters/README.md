@@ -22,6 +22,7 @@ Using what was learned from the project milestones, the final project for Day 8 
 1. Import and print the logo from art.py when the program starts.
 
 2. What if the user enters a shift that is greater than the number of letters in the alphabet?
+
     1. Try running the program and entering a shift number of 45.
     2. Add some code so that the program continues to work even if the user enters a shift number greater than 26.
     3. Hint: Think about how you can use the modulus (%).

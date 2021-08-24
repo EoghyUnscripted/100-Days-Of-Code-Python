@@ -14,7 +14,7 @@ Using what was learned from the exercises, the project for Day 4 was to build a 
 
 ### Instructions
 
-1. Create a program that allows you to select Rock, Paper, or Scissors. 
+1. Create a program that allows you to select Rock, Paper, or Scissors.
 2. When you input the selection, the program will randomly select a choice as well.
 3. The game compares each choice and determines the winner based on the official rules.
 
