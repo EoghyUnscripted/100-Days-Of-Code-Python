@@ -8,7 +8,7 @@ Day 10 starts with using dictionaries and lists and learning how to nest them. F
 
 The Calculator project is broken up into multiple layers that are added on as we progress. We begin with the basics by developing the functions and flow, to cleaning up the code to shorten and create reusable code.
 
-    Project 10.1 - Build functions for `add`, `subtract`, `multiply`, and `divide` processes and add code to collect user input for each operation as selected by user
+    Project 10.1 - Build functions for add, subtract, multiply, and divide processes and add code to collect user input for each operation as selected by user
     Project 10.2 - Modify the code to continue looping the program to allow user to continue with previous calculations or start a new calculation
 
 ## Project: Calculator
