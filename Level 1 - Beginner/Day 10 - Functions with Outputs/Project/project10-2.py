@@ -9,18 +9,10 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 10
-PROJECT: Calculator
+PROJECT: 10-1 Calculator: While Loops, Flags, and Recursion
 LEVEL: Beginner
 
 """
-from Modules import art
-import os
-
-print(art.logo)
-print('Welcome to the Calculator!')
-
-def clear(): 
-    os.system('clear') #on Linux System
 
 def add(n1, n2):
     """Function that adds two numbers as parameters and returns the result."""
@@ -61,7 +53,7 @@ def calculator():
         options = ", ".join(o_string) # Joins the characters in string with commas
         return options  # Returns the formatted string
 
-    num1 = float(input("What is the first number?: "))    # Get first number from user
+    num1 = int(input("What is the first number?: "))    # Get first number from user
 
     should_continue = True  # Sets boolean flag to loop program or to stop
 
@@ -69,7 +61,7 @@ def calculator():
         
         print(operators())  # Print operator keys string to user
         operator_symbol = input("Pick an operation to perform: ")   # Get operation from user
-        num2 = float(input("What is the next number?: ")) # Get next number from user
+        num2 = int(input("What is the next number?: ")) # Get next number from user
 
         # If the operation key is in the dictionary
         if operator_symbol in operations_dictionary:
