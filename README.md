@@ -6,6 +6,10 @@
 >
 > As a developer, I am still going to focus my time and energy across all of the programming skills I possess. However, I know it is important for the professional world to be fluent in at least one language and skilled in many. Ultimately, I hope this challenge helps prepare me in my goal of becoming a professional software engineer. Here's to 100 days of progress!
 
+## Note
+
+The purpose of these courses is to utilize what was learned in previous lectures as you progress each day. You may look at the source codes and think about how it could be done in a better way than what is posted. Most likely, I will be thinking the same thing as I am not a beginner in Python. Once I have finished with the 100 days of Code challenge, I am expecting to revisit some projects and enhance them into fully fleshed out programs.
+
 ## Course Resources
 
 In the course resources folder, you will find the provided files for the [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/learn) which include a poster for tracking progress, notebook sheets for tracking learning, and other valuable information about the course.
