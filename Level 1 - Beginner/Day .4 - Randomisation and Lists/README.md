@@ -56,3 +56,7 @@ scissors = '''
 
 # WRITE YOUR CODE HERE
 ```
+
+### Game Demo
+
+[Replit Demo - Rock Paper Scissors](https://replit.com/@EoghyUnscripted/Rock-Paper-Scissors)

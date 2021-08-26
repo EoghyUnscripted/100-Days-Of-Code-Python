@@ -50,3 +50,7 @@ print("Your mission is to find the treasure.")
 
 # WRITE YOUR CODE HERE
 ```
+
+### Game Demo
+
+[Replit Demo - Treasure Island](https://replit.com/@EoghyUnscripted/Treasure-Island)

@@ -26,3 +26,7 @@ If the bill was $150.00, split between 5 people, with 12% tip:
 **HINT 1:** [How to round number to 2 decimal places in python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
 
 **HINT 2:** [How to limit a float to two decimal places in python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
+
+### Game Demo
+
+[Replit Demo - Tip Calculator](https://replit.com/@EoghyUnscripted/Tip-Calculator)
