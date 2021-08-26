@@ -32,3 +32,7 @@ Using what was learned from the exercises, the final project for Day 9 was to bu
 ### Flow Chart
 
 ![Alt Image](Images/secret_auction_flow_chart.png)
+
+### Game Demo
+
+[Replit Demo - Secret Auction](https://replit.com/@EoghyUnscripted/Secret-Auction)

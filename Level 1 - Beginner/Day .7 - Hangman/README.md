@@ -83,6 +83,6 @@ while not end_of_game:
     print(stages[lives])
 ```
 
-### Example Gameplay
+### Game Demo
 
-[Hangman Demo](https://replit.com/@appbrewery/Day-7-Hangman-5-End?embed=1&output=1#main.py)
+[Replit Demo - Hangman](https://replit.com/@EoghyUnscripted/Hangman)

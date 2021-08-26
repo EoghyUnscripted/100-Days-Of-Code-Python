@@ -2,12 +2,12 @@
 
 ## Overview
 
-Day 8 starts with creating functions that take parameters when called to output results. From there we continue to use conditionals, loops, lists, and variables to build a Caesar Cypher.
+Day 8 starts with creating functions that take parameters when called to output results. From there we continue to use conditionals, loops, lists, and variables to build a Caesar Cipher.
 
     Exercise 8.1 - Build a function that would calculate how many paint cans are needed to cover a wall with user input heigh and width
     Exercise 8.2 - Build a function that accepts a user input number and checks if the number is prime with loops
 
-The Caesar Cypher project is broken up into multiple layers that are added on as we progress. We begin with the basics by developing the functions and flow, to cleaning up the code to shorten and create reusable code.
+The Caesar Cipher project is broken up into multiple layers that are added on as we progress. We begin with the basics by developing the functions and flow, to cleaning up the code to shorten and create reusable code.
 
     Project 8.1 - Start the project by building an encryption function that accepts user message input and outputs an encoded string
     Project 8.2 - Create a decode function that will accept an encoded user message input and outputs a decoded string
@@ -15,7 +15,7 @@ The Caesar Cypher project is broken up into multiple layers that are added on as
 
 ## Project: Caesar Cipher
 
-Using what was learned from the project milestones, the final project for Day 8 was to build a completed Caesar Cypher program to code and decode messages. The completed program would include importing external modules for use in the game and a function that accepts parameter input, and outputs either an encoded or decoded message per user choice.
+Using what was learned from the project milestones, the final project for Day 8 was to build a completed Caesar Cipher program to code and decode messages. The completed program would include importing external modules for use in the game and a function that accepts parameter input, and outputs either an encoded or decoded message per user choice.
 
 ### Instructions
 
@@ -76,3 +76,7 @@ shift = int(input("Type the shift number:\n"))
 
 caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 ```
+
+### Game Demo
+
+[Replit Demo - Caesar Cipher](https://replit.com/@EoghyUnscripted/Caesar-Cipher)
