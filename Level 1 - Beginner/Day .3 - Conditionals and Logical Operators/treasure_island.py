@@ -102,13 +102,13 @@ choice = input('Enter L for Left or R for Right: ').lower()
 if choice != 'l' and choice != 'r':
     print('\n\nSorry, you did not choose correctly.\nA sinkhole swallows your group.')
     print(gameOver)
-    exit
+    exit()
 elif choice == 'l':
     print('You choose to go left...')
 elif choice == 'r':
     print('\n\nSorry, you did not choose correctly.\nAn angry horde of killer bees eat your group.')
     print(gameOver)
-    exit
+    exit()
 
 print(
     '\n',
@@ -144,13 +144,13 @@ choice = input('Enter R for Rest or S to Swim: ').lower()
 if choice != 'r' and choice != 's':
     print('\n\nSorry, you did not choose correctly.\nThe island explodes.')
     print(gameOver)
-    exit
+    exit()
 elif choice == 'r':
     print('You choose to wait and rest...')
 elif choice == 's':
     print('\n\nSorry, you did not choose correctly.\nThe Loch Ness monster eats your group.')
     print(gameOver)
-    exit
+    exit()
 
 print(
     '\n',
@@ -183,13 +183,13 @@ choice = input('Enter B for Board or R to Remain: ').lower()
 if choice != 'b' and choice != 'r':
     print('\n\nSorry, you did not choose correctly.\nThe mountain wall collapses on you.')
     print(gameOver)
-    exit
+    exit()
 elif choice == 'b':
     print('You choose to board the ship...')
 elif choice == 'r':
     print('\n\nSorry, you did not choose correctly.\nThe ground turns to lava.')
     print(gameOver)
-    exit
+    exit()
 
 print(
     '\n',
@@ -222,17 +222,17 @@ choice = input('Enter G for Green or R for Red or B for Blue: ').lower()
 if choice != 'g' and choice != 'r' and choice != 'b':
     print('\n\nSorry, you did not choose correctly.\nThe mountain wall collapses on you.')
     print(gameOver)
-    exit
+    exit()
 elif choice == 'g':
     print('You choose the Green door...')
 elif choice == 'r':
     print('\n\nSorry, you did not choose correctly.\nYou open the door and lava pours out.')
     print(gameOver)
-    exit
+    exit()
 elif choice == 'b':
     print('\n\nSorry, you did not choose correctly.\nYou open the door and water pours out.')
     print(gameOver)
-    exit
+    exit()
 
 print('\n',
     '''
