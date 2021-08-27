@@ -13,6 +13,7 @@ PROJECT: Blackjack
 LEVEL: Beginner
 
 """
+
 from Modules import art
 import random
 import os
@@ -30,6 +31,7 @@ def blackjack(start):
     """Function with parameter to determine if Blackjack game should start or quit. Contains gameplay programming."""
 
     start_game = start  # Assigns function parameter to variable
+    continue_game = True
 
     if start_game == "n":   # If user does not want to play
         return  # Stops the program
@@ -38,119 +40,97 @@ def blackjack(start):
     user_cards = [] # Stores dealt cards for user
     dealer_cards = []   # Stores dealt cards for dealer
 
-    def deal_cards():
-        """Function to randomly select a card from the deck and returns the index."""
-        get_card = random.randint(1,len(cards) - 1) # Get random index from cards list
-        return get_card # Return index
+    def deal_cards(cards_list):
+        """Function to randomly select a card from the list and add to the player hand."""
+        cards_list.append(random.choice(cards)) # Return index
 
-    def compare_scores():
-        """Function to calculate final scores at the end of the game and determine the winner"""
-        scores = get_scores() # Calls function to get updated scores for each hand
+    def compare(user, dealer):
+        """Function used to compare scores of the user hand and computer hand to determine a winner."""
 
-        if scores["Dealer"] < 17:   # Checks id dealer hand has less than 17
-            dealer_cards.append(cards[deal_cards()])    # Pulls another card
-            scores = get_scores()   # Updates the score
-            
-        dealer_score = scores["Dealer"] # Get the dealer score and set to variable
-        user_score = scores["User"] # Get the user score and set to variable
+        user_score = get_score(user)    # Get updated user score
+        dealer_score = get_score(dealer)    # Get updated dealer score
 
-        # Loops during first deal of 2 cards if check_score() triggers false
-        if len(user_cards) == 2:
-            # Checks if Blackjack on first round 
-            if 11 in user_cards and 10 in user_cards:   # Ace and Jack/Queen/King
-                return "User with Blackjack"    # User wins automatically
-        if len(dealer_cards) == 2:
-            # Checks if Blackjack on first round
-            if 11 in dealer_cards and 10 in dealer_cards:   # Ace and Jack/Queen/King
-                return "Dealer with Blackjack"  # Dealer wins automatically
+        # Check for Blackjacks
+        if user_score == 0:
+            return "You have a Blackjack! You win!"
+        elif dealer_score == 0:
+            return "Dealer has a Blackjack! You lose."
 
-        # Determines if Ace is 11 or 1
-        if 11 in user_cards and user_score > 21:    # If over 21, Ace is 1
-            user_score -= 10    # Subtracts 10 from score
-        elif 11 in dealer_cards and dealer_score > 21:  # If over 21, Ace is 1
-            dealer_score -= 10  # Subracts 10 from score
+        if user_score > 21 and dealer_score > 21:
+            # If both scores are over 21
+            return "Both players went over 21. No winner."
+        elif dealer_score > 21:
+            # If dealer score is over 21
+            return "Dealer went over 21. You win!"
+        elif user_score > 21:
+            # If user score is over 21
+            return "You went over 21. You lose."
+        elif user_score > dealer_score:
+            # If user score is greater than dealer score
+            return "You win!"
+        elif dealer_score > user_score:
+            # If dealer score is greater than user score
+            return "Dealer wins!"
+        else:
+            # Any other outcome
+            return "No winner."
 
-        if user_score > 21 and dealer_score > 21:   # If both hands are over 21
-            return "Neither"    # No winner
+    def get_score(hand):
+        """Function used to calculate current scores using a list that is passed as a parameter."""
 
-        if user_score > 21: # If user score is over 21
-            return "Dealer" # Dealer wins
-        elif dealer_score > 21: # If dealer score is over 21
-            return "User"   # User wins
-        elif user_score == dealer_score:    # If score is the same
-            return "Draw"   # Tied
-        elif user_score > dealer_score: # If user score is greater than dealers
-            return "User"   # User wins
-        elif dealer_score > user_score: # If dealer score is greater than users
-            return "Dealer" # Dealer wins
+        if sum(hand) == 21 and len(hand) == 2:
+            return 0
+        elif 11 in hand and sum(hand) > 21:
+            hand.remove(11)
+            hand.append(1)
+            return sum(hand)
+        elif sum(hand) > 21:
+            score = sum(hand)
+            continue_game = False
+        else:
+            score = sum(hand)
 
-    def check_hands():
-        """Function used to check each players hand during game play for certain conditions and determines if game continues or ends."""
-        user_score = sum(user_cards)    # Checks sum of user cards
-        dealer_score = sum(dealer_cards)    # Checks sum of dealer cards
-        
-        if user_score > 21 and dealer_score > 21:   # If both hands are over 21
-            return True # End game
+        return sum(hand)
 
-        # Loops during first deal of 2 cards
-        if len(user_cards) == 2:
-            # Checks if Blackjack on first round
-            if 11 in user_cards and 10 in user_cards:
-                return True    # End game
-        if len(dealer_cards) == 2:
-            # Checks if Blackjack on first round
-            if 11 in dealer_cards and 10 in dealer_cards:
-                return True    # End game
-        
-        if user_score > 21: # If user score is over 21
-            return True # End game
-        elif dealer_score > 21: # If dealer score is over 21
-            return True # End game
-        else:   # If no condition is met
-            return False    # Continue game
+    for _ in range(2):    # Deals first round of cards
+        deal_cards(user_cards)  # Deal user cards, adds to user list
+        deal_cards(dealer_cards)    # Deal dealer cards, add to dealer list
 
-    def get_scores():
-        """Function used to calculate current scores for user and dealer and sets to dictionary."""
-        user_score = sum(user_cards)    # Get user score
-        dealer_score = sum(dealer_cards)    # Get dealer score
-        scores = {
-            "User":user_score,  # Set user score
-            "Dealer":dealer_score   # Set dealer score
-        }
-        return scores   # Return the dictionary
+    while continue_game:    # Loops game
 
-    for i in range(0,2):    # Deals first round of cards
-        user_cards.append(cards[deal_cards()])  # Deal user cards, adds to user list
-        dealer_cards.append(cards[deal_cards()])    # Deal dealer cards, add to dealer list
+        user_score = get_score(user_cards)  # Get updated user score
+        dealer_score = get_score(dealer_cards)  # Get updated dealer score
 
-    hit_card = True # Sets conditional for looping game play
+        clear() # Clear console
+        print(art.logo) # Print logo
 
-    while hit_card: # While true
-        scores = get_scores()   # Get initial/updated scores
-        print(f"\nYour cards: {user_cards}, current score: {scores['User']}")   # Prints cards and score for user
+        print(f"\nYour cards: {user_cards}, current score: {user_score}")   # Prints cards and score for user
         print(f"Computers first card: {dealer_cards[0]}")   # Prints first card in dealer hand
 
-        if check_hands():   # Checks if conditions are met to end game
-            hit_card = False    # Stops loop if true
-        else:   # If false, continue
-            hit = input("\nType Y to get another card, N to pass: ").lower() # Check if user wants another card
-            
-            if hit == "n":  # If no
-                hit_card = False    # Stop loop
-                compare_scores()    # Get results of game
-                scores = get_scores()   # Update the scores
-            elif hit == "y":    # If yes
-                clear() # Clear console
-                print(art.logo) # Print logo
-                user_cards.append(cards[deal_cards()])  # Get and add next card to users list
-                dealer_cards.append(cards[deal_cards()])    # Get and add next card to dealers list
-    
+        # Checks for Blackjack or user score is over 21
+        if user_score == 0 or dealer_score == 0 or user_score > 21:
+            continue_game = False   # End game
+        else:
+            # Check with user if they want another card
+            player_hit = input("\nType Y if you would like another card, type N if you wish to pass: ").lower()
+
+            if player_hit == "n":   # If no
+                continue_game = False   # End game
+            if player_hit == "y":   # If yes
+                continue_game = True    # Continue game
+                deal_cards(user_cards)  # Deal another card to user
+
+    while get_score(dealer_cards) < 17: # While dealer score is less than 17
+        deal_cards(dealer_cards)    # Deal another card for dealer
+
     clear() # Clear console
     print(art.logo) # Print logo
-    print(f"\nYour final hand: {user_cards}, final score: {scores['User']}")    # Print final cards and user score
-    print(f"Dealer final hand: {dealer_cards}, final score: {scores['Dealer']}")    # Print final cards and dealer score
-    winner = compare_scores()   # Compare the hands one more time for updates
-    print(f"\nThe winner is: {winner}!")    # Print the winner name
+    winner = compare(user_cards, dealer_cards)  # Compares the final scores and winner
+    print(f"\nYour final hand: {user_cards}, final score: {get_score(user_cards)}")    # Print final cards and user score
+    print(f"Dealer final hand: {dealer_cards}, final score: {get_score(dealer_cards)}")    # Print final cards and dealer score
+
+    print(f"\n{winner}")    # Output the winner message
+    
     start_game = input("\nDo you want to play another game of Blackjack? Y or N: ").lower() # Prompt if user wants to play again
 
     if start_game == "y":   # If yes
