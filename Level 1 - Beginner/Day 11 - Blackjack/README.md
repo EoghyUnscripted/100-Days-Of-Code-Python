@@ -100,4 +100,5 @@ The instructions provided were hints to help the user along the way if they want
 ### Game Demo
 
 [Replit Demo - Blackjack 1.0](https://replit.com/@EoghyUnscripted/Blackjack-10)
+
 [Replit Demo - Blackjack 2.0](https://replit.com/@EoghyUnscripted/Blackjack-20)
