@@ -66,18 +66,15 @@ def game():
     # Get initial account data
     account_A = get_account()   # Get random account for A
     account_B = get_account()   # Get random account for B
-    message_A = get_message(account_A)  # Get message for A
-    message_B = get_message(account_B)  # Get message for B
 
     while check_account(account_A, account_B):  # Checks if accounts are the same
         account_B = get_account()   # Get new random account for B
-        message_B = get_message(account_B)  # Get new message for B
 
     while continue_game:    # While game is active
 
-        print(f"\nCompare A: {message_A}\n")    # Print message A
+        print(f"\nCompare A: {get_message(account_A)}\n")    # Print message A
         print(art.vs)   # Print VS art
-        print(f"\nAgainst B: {message_B}\n")    # Print message B
+        print(f"\nAgainst B: {get_message(account_B)}\n")    # Print message B
 
         guess = input("Who has more followers on Instagram? A or B?: ").upper() # Get guess from user
 
@@ -91,13 +88,10 @@ def game():
             
             # Reset the accounts
             account_A = account_B   # Set account B to A
-            message_A = message_B   # Set message B to A
-            account_B = get_account()   # Get random account for B
-            message_B = get_message(account_B)  # Get message for B
 
             while check_account(account_A, account_B):  # Checks if accounts are the same
                 account_B = get_account()   # Get new random account for B
-                message_B = get_message(account_B)  # Get new message for B
+
         else: # If wrong answer
             clear() # Clear console
             print(art.logo) # Print logo
