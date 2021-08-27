@@ -29,6 +29,12 @@ These topics include:
 - Loops
 - Error Handling
 
+### Actual Dates
+
+    Start: August 14
+    End: August 27
+    Elapsed Days: 13
+
 ## Level 2 - Intermediate
 
 In this section are days 15-31 in which the course covers intermediate topics in Python programming.
@@ -47,6 +53,12 @@ These topics include:
 - Tkinter
 - JSON
 
+### Actual Dates
+
+    Start: 
+    End: 
+    Elapsed Days: 
+
 ## Level 3 - Advanced
 
 In this section are days 32-58 in which the course covers advanced topics in Python programming.
@@ -63,6 +75,12 @@ These topics include:
 - Command Line
 - Templating with Jinja 2
 - WTForms
+
+### Actual Dates
+
+    Start: 
+    End: 
+    Elapsed Days: 
 
 ## Level 4 - Expert
 
@@ -81,6 +99,12 @@ These topics include:
 - Seaborn
 - Multi-Variable Regression
 
+### Actual Dates
+
+    Start: 
+    End: 
+    Elapsed Days: 
+
 ## Level 5 - Portfolio Project
 
 In this section are days 81-101 in which the course covers final projects to develop an electronic portfolio.
@@ -95,3 +119,9 @@ These topics include:
 - Space Invaders Game
 - Custom API Driven Website
 - Custom Browser Automation
+
+### Actual Dates
+
+    Start: 
+    End: 
+    Elapsed Days: 
