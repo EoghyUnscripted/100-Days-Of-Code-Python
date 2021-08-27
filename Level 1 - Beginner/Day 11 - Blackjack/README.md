@@ -2,7 +2,7 @@
 
 ## Overview
 
-Day 11 started with building a capstone project using just a list of requirements, basic knowledge of how to play Blackjack, and an example output.
+Day 11 starts with building a capstone project using just a list of requirements, basic knowledge of how to play Blackjack, and an example output.
 
     Blackjack 1.0 - Initial build of the capstone project
     Blackjack 2.0 - Enhanced build of the capstone project
