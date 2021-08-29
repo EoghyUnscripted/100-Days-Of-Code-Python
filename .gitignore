@@ -146,5 +146,6 @@ cython_debug/
 Course\ Resources/
 .vscode/
 .DS_Store
+.idea
 
 # End of https://www.toptal.com/developers/gitignore/api/python
