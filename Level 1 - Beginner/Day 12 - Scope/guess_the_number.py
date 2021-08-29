@@ -28,7 +28,7 @@ def check_guess(guess, lives, number):
     print(art.logo) # Print logo
 
     try:    # Check if guess converts to int
-        int(guess)  # Try to coonvert to int
+        int(guess)  # Try to convert to int
         is_int = True   # If converts, set true
         guess = int(guess)  # Convert guess to int
     except ValueError:  # If doesn't convert

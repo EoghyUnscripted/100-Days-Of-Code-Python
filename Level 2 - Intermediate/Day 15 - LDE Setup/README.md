@@ -34,4 +34,4 @@ Using what we have learned in the beginner courses, we will build a program for 
 
 ### Game Demo
 
-[]()
+[Replit Demo - Coffee Machine Part 1](https://replit.com/@EoghyUnscripted/Coffee-Machine-Part-1)
