@@ -14,13 +14,11 @@ LEVEL: Intermediate
 
 """
 
-from menu import Menu
-from coffee_maker import CoffeeMaker
-from money_machine import MoneyMachine
+import Modules
 
-cash_machine = MoneyMachine()   # Create object from MoneyMachine class
-coffee_machine = CoffeeMaker()  # Create object from CoffeeMaker class
-coffee_menu = Menu()    # Create object from Menu class
+cash_machine = Modules.MoneyMachine()   # Create object from MoneyMachine class
+coffee_machine = Modules.CoffeeMaker()  # Create object from CoffeeMaker class
+coffee_menu = Modules.Menu()    # Create object from Menu class
 
 
 def coffee():
