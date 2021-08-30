@@ -1,12 +1,12 @@
-# Day 15 Local Development Environment Setup
+# Day 16 Object-Oriented Programming
 
 ## Overview
 
-Day 15 starts with learning how to set up Python 3 and PyCharm on our computers. For the sake of experience and organization, I chose to work with PyCharm instead of Visual Studio Code to gain some exposure to the development environment and tools. 
+Day 16 starts with reviewing Python classes and Object-Oriented Programming. Using this and what we have learned previously, we will work on Coffee Machine Part 2 where we will use classes and functions to recreate the original project from Day 15.
 
-## Project: Coffee Machine Part 1
+## Project: Coffee Machine Part 2
 
-Using what we have learned in the beginner courses, we will build a program for a coffee machine similar to one you would find in a hospital. The program will allow users to choose a drink, pay for it using input prompts to enter coin counts, and the coffee machine will dispense the drink.
+With the provided code from the course in the files `menu.py`, `coffee_maker.py`, and `money_machine.py`, we will focus on rebuilding our project using `classes` and `methods` to complete. The goal is the same as the previous day, but cleaner and more complex using objects.
 
 ### Instructions
 
@@ -34,8 +34,8 @@ Using what we have learned in the beginner courses, we will build a program for 
 
 ### Comments
 
-For this project, I added some input validation to make sure that users were entering the correct data types. Or if a user hit enter instead of inputting a number, the program would handle the exceptions and prompt the user again, or replace with 0. This allows the program to continue running until quit.
+As this project required not manipulating the provided code, it prevented me from handling input type exceptions. However, I was able to provide exceptions to keep the game running in the event that an input was invalid. For example, if the user entered the wrong command for drink or maintenance, it would ask again.
 
 ### Game Demo
 
-[Replit Demo - Coffee Machine Part 1](https://replit.com/@EoghyUnscripted/Coffee-Machine-Part-1)
+[Replit Demo - Coffee Machine Part 2](https://replit.com/@EoghyUnscripted/Coffee-Machine-Part-2)
