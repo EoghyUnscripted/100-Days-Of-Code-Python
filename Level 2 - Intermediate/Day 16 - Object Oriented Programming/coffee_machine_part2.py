@@ -1,3 +1,19 @@
+"""
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 16
+PROJECT: Coffee Machine Part 2
+LEVEL: Intermediate
+
+"""
+
 from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
@@ -5,6 +21,7 @@ from money_machine import MoneyMachine
 cash_machine = MoneyMachine()   # Create object from MoneyMachine class
 coffee_machine = CoffeeMaker()  # Create object from CoffeeMaker class
 coffee_menu = Menu()    # Create object from Menu class
+
 
 def coffee():
     """Main function for coffee machine."""
