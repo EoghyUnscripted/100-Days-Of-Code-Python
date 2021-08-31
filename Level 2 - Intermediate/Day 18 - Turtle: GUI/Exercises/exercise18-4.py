@@ -11,11 +11,34 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 18
-EXERCISE: 18-1 Turtle: Draw a Random Walk
+EXERCISE: 18-4 Turtle: Draw a Random Walk
 LEVEL: Intermediate
-
-INSTRUCTIONS:
-
-    Write a program using Turtle to draw a random walk.
-
 """
+
+from turtle import Turtle, Screen
+import random
+
+colors = ["DeepPink", "DarkOrchid", "DarkGoldenrod", "CadetBlue", "DarkSlateGray",
+          "DarkOrange", "DodgerBlue", "DeepSkyBlue4", "Magenta", "Moccasin"]
+
+directions = [0, 90, 180, 270]
+
+timmy = Turtle()
+timmy.shape("turtle")
+timmy.pensize(15)
+timmy.speed("fastest")
+
+
+def change_direction():
+    random_direction = random.choice(directions)
+    timmy.setheading(random_direction)
+    color = random.choice(colors)
+    timmy.color(color)
+    timmy.forward(30)
+
+
+for i in range(300):
+    change_direction()
+
+screen = Screen()
+screen.exitonclick()

@@ -13,9 +13,22 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 18
 EXERCISE: 18-2 Turtle: Draw a Dashed Line
 LEVEL: Intermediate
-
-INSTRUCTIONS:
-
-    Write a program using Turtle to draw a dashed line.
-
 """
+
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+timmy.shape("turtle")
+timmy.color("grey")
+timmy.pencolor("purple")
+
+for _ in range(4):
+    for _ in range(10):
+        timmy.pd()
+        timmy.forward(10)
+        timmy.pu()
+        timmy.forward(10)
+    timmy.left(90)
+
+screen = Screen()
+screen.exitonclick()

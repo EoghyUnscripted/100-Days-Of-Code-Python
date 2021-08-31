@@ -14,8 +14,19 @@ DAY: 18
 EXERCISE: 18-1 Turtle: Draw a Square
 LEVEL: Intermediate
 
-INSTRUCTIONS:
-
-    Write a program using Turtle to draw a square.
-
 """
+
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+timmy.shape("turtle")
+timmy.color("grey")
+timmy.pencolor("purple")
+timmy.pensize(20)
+
+for _ in range(4):
+    timmy.forward(100)
+    timmy.left(90)
+
+screen = Screen()
+screen.exitonclick()
