@@ -13,22 +13,23 @@ Learn to build websites, games, apps, plus scraping and data science
 DAY: 18
 EXERCISE: 18-2 Turtle: Draw a Dashed Line
 LEVEL: Intermediate
+
 """
 
 from turtle import Turtle, Screen
 
-timmy = Turtle()
-timmy.shape("turtle")
-timmy.color("grey")
-timmy.pencolor("purple")
+timmy = Turtle()    # Create Turtle object
+timmy.shape("turtle")   # Change object shape
+timmy.color("grey")     # Change object color
+timmy.pencolor("purple")    # Change pen or line color
 
-for _ in range(4):
-    for _ in range(10):
-        timmy.pd()
-        timmy.forward(10)
-        timmy.pu()
-        timmy.forward(10)
-    timmy.left(90)
+for _ in range(4):  # Loop 4 times for square
+    for _ in range(10):     # Loops 10 times for dashes
+        timmy.pd()  # Pen down to draw line
+        timmy.forward(10)   # Move forward
+        timmy.pu()  # Pen up for blank space
+        timmy.forward(10)   # Move forward
+    timmy.left(90)  # Turn left
 
-screen = Screen()
-screen.exitonclick()
+screen = Screen()   # Opens screen
+screen.exitonclick()    # Keeps screen open until clicked
