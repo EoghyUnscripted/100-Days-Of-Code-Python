@@ -18,7 +18,17 @@ Using the Turtle package, we will build a program that will recreate a similar i
 
 ### Instructions
 
-1. .
+1. Extract the colors from `image.jpg` using colorgram
+2. With these colors, recreate a `10 x 10` image with dots
+   1. Each dot should be a random color from the extracted list
+   2. Each dot should be spaced `50` paces apart
+   3. Each dot should be `20` in size
+3. Start from the bottom left to right and move up the rows
+4. There should be `100` dots in total
+
+### Example Output
+
+![Hirst Painting](Images/hirst_painting.png)
 
 ### Game Demo
 
