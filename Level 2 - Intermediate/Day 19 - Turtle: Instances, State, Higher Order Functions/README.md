@@ -41,4 +41,4 @@ While the program shows print statements in the console, I figured this would be
 
 ### Game Demo
 
-[Replit Demo - Turtle Rac](https://replit.com/@EoghyUnscripted/Turtle-Race)
+[Replit Demo - Turtle Race](https://replit.com/@EoghyUnscripted/Turtle-Race)
