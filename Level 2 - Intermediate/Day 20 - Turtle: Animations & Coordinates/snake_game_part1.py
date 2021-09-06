@@ -9,7 +9,7 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 20
-PROJECT: Snake Game
+PROJECT: Snake Game Part 1
 LEVEL: Intermediate
 
 """
