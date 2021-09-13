@@ -1,5 +1,9 @@
 # Day 21 Turtle: Inheritance & List Slicing
 
+## Overview
+
+   We begin day 21 by learning class inheritance.
+
 ## Project: Turtle Racing
 
 Using the Turtle package, we will continue part 2 to build a snake game. This will include the object shape, collision detection, user key listeners and a scoreboard.

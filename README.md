@@ -55,7 +55,7 @@ These topics include:
 
 ### Actual Dates
 
-    Start: 
+    Start: August 28
     End: 
     Elapsed Days: 
 
