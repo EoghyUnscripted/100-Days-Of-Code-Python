@@ -18,25 +18,24 @@ from turtle import Screen, Turtle
 from Modules import snake
 
 # Screen Setup
-screen = Screen()
-screen.setup(width=600, height=600)
-screen.bgcolor("black")
-screen.title("Snake Game")
-screen.tracer(0)
+screen = Screen()   # Create new screen object
+screen.setup(width=600, height=600)     # Set screen width and height
+screen.bgcolor("black")     # Set screen background color
+screen.title("Snake Game")  # Set title on screen
+screen.tracer(0)    # Set tracer to 0
 
-sammy = snake.Snake()
+sammy = snake.Snake()   # Create new snake object
 screen.listen()     # Listens for key inputs
 
 
 def game_play():
     """Function used to start game."""
+    game_is_running = True  # Set boolean for while loop
 
-    game_is_running = True
-
-    while game_is_running:
-        screen.update()
-        time.sleep(0.3)
-        sammy.move()
+    while game_is_running:  # While boolean is true
+        screen.update()     # Update screen
+        time.sleep(0.3)     # Set time interval between updates
+        sammy.move()        # Constantly move snake forward
 
 
 screen.onkey(sammy.left, "Left")   # When 'Left Arrow' is pressed, turn West
@@ -45,4 +44,4 @@ screen.onkey(sammy.up, "Up")   # When 'Up Arrow' is pressed, turn North
 screen.onkey(sammy.down, "Down")     # When 'Down Arrow' is pressed, turn South
 screen.onkey(game_play, "space")    # When 'Space' is pressed, start game
 
-screen.exitonclick()
+screen.exitonclick()    # Sets listener for mouse click to close screen
