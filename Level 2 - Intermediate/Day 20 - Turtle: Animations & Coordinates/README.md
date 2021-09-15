@@ -18,10 +18,3 @@ Using the Turtle package, we will build a snake game. This will include the obje
 
 ![Snake Game Part 1](Images/snake_game_part1.png)
 
-#### Demo Issues
-
-May not work in Replit.
-
-### Replit Demo
-
-[Replit Demo - Snake Game](https://replit.com/@EoghyUnscripted/Snake-Game-)
