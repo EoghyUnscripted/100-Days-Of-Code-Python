@@ -18,41 +18,43 @@ from turtle import Screen
 from Modules import snake, food, scoreboard
 
 # Screen Setup
-screen = Screen()
-screen.setup(width=600, height=600)
-screen.bgcolor("black")
-screen.title("Snake Game")
-screen.tracer(0)
+screen = Screen()   # Create new screen object
+screen.setup(width=600, height=600)     # Set screen width and height
+screen.bgcolor("black")     # Set screen background color
+screen.title("Snake Game")  # Set title on screen
+screen.tracer(0)    # Set tracer to 0
 
-sammy = snake.Snake()
-food = food.Food()
-score = scoreboard.Score()
+sammy = snake.Snake()   # Create new snake object
+food = food.Food()      # Create new food object
+score = scoreboard.Score()      # Create new scoreboard object
 screen.listen()     # Listens for key inputs
 
 
 def game_play():
     """Function used to start game."""
+    game_is_running = True  # Set boolean for while loop
 
-    game_is_running = True
+    while game_is_running:  # While boolean is true
+        screen.update()     # Update screen
+        time.sleep(0.3)     # Set time interval between updates
+        sammy.move()        # Constantly move snake forward
 
-    while game_is_running:
-        screen.update()
-        time.sleep(0.3)
-        sammy.move()
-
+        # Detect collision with food object
         if sammy.head.distance(food) < 15:
-            food.refresh()
-            sammy.extend()
-            score.add_point()
+            food.refresh()  # Refreshes the objects position on screen
+            sammy.extend()  # Adds another segment to the snake tail
+            score.add_point()   # Add point to the scoreboard
 
+        # Detect collision with the walls
         if sammy.head.xcor() > 290 or sammy.head.xcor() < -290 or sammy.head.ycor() > 290 or sammy.head.ycor() < -290:
-            game_is_running = False
-            score.game_over()
+            game_is_running = False     # Set game play to False and ends
+            score.game_over()   # Call to write GAME OVER on screen
 
+        # Detect collision with tail
         for segment in sammy.turtle_list[1:]:
             if sammy.head.distance(segment) < 10:
-                game_is_running = False
-                score.game_over()
+                game_is_running = False  # Set game play to False and ends
+                score.game_over()  # Call to write GAME OVER on screen
 
 
 screen.onkey(sammy.left, "Left")   # When 'Left Arrow' is pressed, turn West
@@ -61,5 +63,5 @@ screen.onkey(sammy.up, "Up")   # When 'Up Arrow' is pressed, turn North
 screen.onkey(sammy.down, "Down")     # When 'Down Arrow' is pressed, turn South
 screen.onkey(game_play, "space")    # When 'Space' is pressed, start game
 
-screen.exitonclick()
+screen.exitonclick()    # Sets listener for mouse click to close screen
 

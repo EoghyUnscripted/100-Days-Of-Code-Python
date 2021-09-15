@@ -14,7 +14,7 @@ LEVEL: Intermediate
 
 """
 import time
-from turtle import Screen, Turtle
+from turtle import Screen
 from Modules import snake
 
 # Screen Setup
