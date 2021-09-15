@@ -14,8 +14,8 @@ LEVEL: Intermediate
 
 """
 import time
-from turtle import Screen, Turtle
-from Modules import snake
+from turtle import Screen
+from Modules import snake, food, scoreboard
 
 # Screen Setup
 screen = Screen()
@@ -25,6 +25,8 @@ screen.title("Snake Game")
 screen.tracer(0)
 
 sammy = snake.Snake()
+food = food.Food()
+score = scoreboard.Score()
 screen.listen()     # Listens for key inputs
 
 
@@ -38,6 +40,20 @@ def game_play():
         time.sleep(0.3)
         sammy.move()
 
+        if sammy.head.distance(food) < 15:
+            food.refresh()
+            sammy.extend()
+            score.add_point()
+
+        if sammy.head.xcor() > 290 or sammy.head.xcor() < -290 or sammy.head.ycor() > 290 or sammy.head.ycor() < -290:
+            game_is_running = False
+            score.game_over()
+
+        for segment in sammy.turtle_list[1:]:
+            if sammy.head.distance(segment) < 10:
+                game_is_running = False
+                score.game_over()
+
 
 screen.onkey(sammy.left, "Left")   # When 'Left Arrow' is pressed, turn West
 screen.onkey(sammy.right, "Right")     # When 'Right Arrow' is pressed, turn East
@@ -46,3 +62,4 @@ screen.onkey(sammy.down, "Down")     # When 'Down Arrow' is pressed, turn South
 screen.onkey(game_play, "space")    # When 'Space' is pressed, start game
 
 screen.exitonclick()
+

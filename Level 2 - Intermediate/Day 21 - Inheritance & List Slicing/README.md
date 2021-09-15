@@ -2,9 +2,9 @@
 
 ## Overview
 
-   We begin day 21 by learning class inheritance.
+   We begin day 21 by learning class inheritance and work our way towards list and tuple slicing for reducing code.
 
-## Project: Turtle Racing
+## Project: Snake Game Part 2
 
 Using the Turtle package, we will continue part 2 to build a snake game. This will include the object shape, collision detection, user key listeners and a scoreboard.
 
@@ -19,12 +19,4 @@ Using the Turtle package, we will continue part 2 to build a snake game. This wi
 
 ### Example Output
 
-![Snake Game Part 1](Images/snake_game_part1.png)
-
-#### Demo Issues
-
-May not work in Replit.
-
-### Replit Demo
-
-[Replit Demo - Snake Game](https://replit.com/@EoghyUnscripted/Snake-Game)
+![Snake Game Part 2](Images/snake_game_part2.png)

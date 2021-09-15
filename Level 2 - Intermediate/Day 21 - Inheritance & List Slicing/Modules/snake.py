@@ -48,9 +48,15 @@ class Snake:
         """Function used to create initial snake objet for Turtle screen."""
         # Fill the initial turtle list for snake body
         for position in position_list:
-            new_turtle = Turtle()
-            new_turtle.color("grey")
-            new_turtle.shape("square")
-            new_turtle.penup()
-            new_turtle.goto(position)
-            self.turtle_list.append(new_turtle)
+            self.add_tail(position)
+
+    def add_tail(self, position):
+        new_turtle = Turtle()
+        new_turtle.color("grey")
+        new_turtle.shape("square")
+        new_turtle.penup()
+        new_turtle.goto(position)
+        self.turtle_list.append(new_turtle)
+
+    def extend(self):
+        self.add_tail(self.turtle_list[-1].position())
