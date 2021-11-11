@@ -59,6 +59,15 @@ These topics include:
     End: 
     Elapsed Days: 
 
+#### Comments
+
+> Due to starting a new job, training, and working 60 hours a week, my progress during the challenge
+> was put on pause. Now that my schedule is back to standard 40 hours, I will be able to continue
+> working toward completing the challenge.
+> 
+> Even with the setbacks, completing this challenge is important to me, and I will continue driving
+> my efforts to do so. I want to be able to look back and be proud of this accomplishment.
+
 ## Level 3 - Advanced
 
 In this section are days 32-58 in which the course covers advanced topics in Python programming.
