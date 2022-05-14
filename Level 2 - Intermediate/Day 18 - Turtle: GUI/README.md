@@ -3,7 +3,7 @@
 ## Overview
 
 Day 18 starts with learning how to work with Turtle GUI and finally building a project that uses Turtle to build a work of art.
-      
+
       Exercise 18.1 - Draw a square
       Exercise 18.2 - Draw a dashed line
       Exercise 18.3 - Drawing different shapes

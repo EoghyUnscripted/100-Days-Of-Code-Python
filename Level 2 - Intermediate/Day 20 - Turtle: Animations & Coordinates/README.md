@@ -18,3 +18,10 @@ Using the Turtle package, we will build a snake game. This will include the obje
 
 ![Snake Game Part 1](Images/snake_game_part1.png)
 
+#### Demo Issues
+
+As Replit does not truly support Turtle very well, users may have better luck forking the GitHub repo and running the app through Visual Studio Code or similar editor. However, the program will run on Replit, but users will not get the full experience.
+
+### Replit Demo
+
+[Replit Demo - Snake Game Part 1](https://replit.com/@EoghyUnscripted/Snake-Game-1)
