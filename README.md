@@ -63,25 +63,6 @@ These topics include:
     End: 
     Elapsed Days: 
 
-#### Comments
-
-May 13, 2022
-
-    Now that life has settled down more for me and income flow back on track, I am finally able to really
-    get back on track. I had setbacks with finances that prevented me from continuing my Udemy subscription
-    which hosts my 100 Days of Code course.
-
-    Today, I will start with Day 22 and continue to move forward with my training.
-
-November 10, 2021
-
-    Due to starting a new job, training, and working 60 hours a week, my progress during the challenge
-    was put on pause. Now that my schedule is back to standard 40 hours, I will be able to continue
-    working toward completing the challenge. 
-    
-    Even with the setbacks, completing this challenge is important to me, and I will continue driving
-    my efforts to do so. I want to be able to look back and be proud of this accomplishment.
-
 ## Level 3 - Advanced
 
 In this section are days 32-58 in which the course covers advanced topics in Python programming.
@@ -130,7 +111,7 @@ These topics include:
 
 ## Level 5 - Portfolio Project
 
-In this section are days 81-101 in which the course covers final projects to develop an electronic portfolio.
+In this section are days 81-100 in which the course covers final projects to develop an electronic portfolio.
 
 These topics include:
 
