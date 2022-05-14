@@ -13,6 +13,7 @@ PROJECT: Snake Game Part 2
 LEVEL: Intermediate
 
 """
+
 import time
 from turtle import Screen
 from Modules import snake, food, scoreboard

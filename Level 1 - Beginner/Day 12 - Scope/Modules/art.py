@@ -1,3 +1,19 @@
+"""
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION: 
+Master Python by building 100 projects in 100 days. 
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 12
+PROJECT: Guess the Number
+LEVEL: Beginner
+
+"""
+
 logo = """
  d888b  db    db d88888b .d8888. .d8888.      d888888b db   db d88888b 
 88' Y8b 88    88 88'     88'  YP 88'  YP      `~~88~~' 88   88 88'     

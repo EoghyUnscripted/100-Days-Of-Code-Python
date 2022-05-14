@@ -9,7 +9,7 @@ Master Python by building 100 projects in 100 days.
 Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 10
-PROJECT: 10-1 Calculator: While Loops, Flags, and Recursion
+PROJECT: 10-2 Calculator: While Loops, Flags, and Recursion
 LEVEL: Beginner
 
 """

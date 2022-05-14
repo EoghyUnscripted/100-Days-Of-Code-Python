@@ -1,3 +1,18 @@
+"""
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 16
+PROJECT: Coffee Machine Part 2
+LEVEL: Intermediate
+
+"""
 class CoffeeMaker:
     """Modules the machine that makes the coffee"""
     def __init__(self):

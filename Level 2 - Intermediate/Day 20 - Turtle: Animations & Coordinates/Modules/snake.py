@@ -1,3 +1,19 @@
+"""
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 20
+PROJECT: Snake Game Part 1
+LEVEL: Intermediate
+
+"""
+
 from turtle import Turtle
 
 position_list = [(0, 0), (-20, 0), (-40, 0)]    # Set initial positions of snake body segments

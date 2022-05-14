@@ -13,6 +13,7 @@ PROJECT: Coffee Machine Part 1
 LEVEL: Intermediate
 
 """
+
 from Modules import functions, menu
 
 
