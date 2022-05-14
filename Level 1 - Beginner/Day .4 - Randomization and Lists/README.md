@@ -1,4 +1,4 @@
-# Day 4 Randomisation and Lists
+# Day 4 Randomization and Lists
 
 ## Overview
 
