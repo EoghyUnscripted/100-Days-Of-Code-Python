@@ -39,4 +39,4 @@ As Replit does not truly support Turtle very well, users may have better luck fo
 
 ### Replit Demo
 
-[Replit Demo - Pong Game](https://replit.com/@EoghyUnscripted/Pong-Game)
+[Replit Demo - Turtle Crossing](https://replit.com/@EoghyUnscripted/Turtle-Crossing)
