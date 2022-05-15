@@ -28,7 +28,7 @@ These topics include:
 - [x] Day 20 - Turtle: Animations & Coordinates
 - [x] Day 21 - Inheritance & List Slicing
 - [x] Day 22 - Build Pong: Arcade Game
-- [ ] Day 23 - Turtle Crossing
+- [x] Day 23 - Turtle Crossing
 - [ ] Day 24 - Files, Directories and Paths
 - [ ] Day 25 - CSV Data, Pandas Library
 - [ ] Day 26 - List Comprehension, NATO Alphabet
