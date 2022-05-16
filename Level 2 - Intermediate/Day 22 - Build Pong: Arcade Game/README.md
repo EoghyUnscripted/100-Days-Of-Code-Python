@@ -2,7 +2,7 @@
 
 ## Overview
 
-   We begin day 22 by taking what we learned in day 21 and building a Pong arcade game. We will be bringing things one step further by adding another layer of complexity using multiple objects that move with key presses.
+We begin day 22 by taking what we learned in day 21 and building a Pong arcade game. We will be bringing things one step further by adding another layer of complexity using multiple objects that move with key presses.
 
 ## Project: Pong
 

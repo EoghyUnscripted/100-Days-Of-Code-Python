@@ -2,7 +2,7 @@
 
 ## Overview
 
-   We begin day 20 continuing what we learned on day 19 using key inputs to move objects. We take it to the next level by calling functions from external class files.
+We begin day 20 continuing what we learned on day 19 using key inputs to move objects. We take it to the next level by calling functions from external class files.
 
 ## Project: Snake Game Part 1
 

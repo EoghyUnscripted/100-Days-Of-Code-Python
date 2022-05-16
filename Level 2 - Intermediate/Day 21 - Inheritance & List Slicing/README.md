@@ -2,7 +2,7 @@
 
 ## Overview
 
-   We begin day 21 by learning class inheritance and work our way towards list and tuple slicing for reducing code.
+We begin day 21 by learning class inheritance and work our way towards list and tuple slicing for reducing code.
 
 ## Project: Snake Game Part 2
 
