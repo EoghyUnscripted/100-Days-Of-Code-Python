@@ -1,5 +1,9 @@
 # Day 20 Turtle: Animations & Coordinates
 
+## Overview
+
+   We begin day 20 continuing what we learned on day 19 using key inputs to move objects. We take it to the next level by calling functions from external class files.
+   
 ## Project: Snake Game Part 1
 
 Using the Turtle package, we will build a snake game. This will include the object shape, collision detection, user key listeners and a scoreboard.

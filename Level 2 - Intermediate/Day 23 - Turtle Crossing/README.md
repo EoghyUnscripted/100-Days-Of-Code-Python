@@ -2,7 +2,7 @@
 
 ## Overview
 
-   For Day 23, we will be using what we have learned in previous modules to create a Turtle Crossing game.
+   For Day 23, we will be using what we have learned in previous modules to create a Turtle Crossing game. This game will require more focus on the logic rather than the build where we focus on how to work with a large number of objects in a list during gameplay.
 
 ## Project: Turtle Crossing
 
