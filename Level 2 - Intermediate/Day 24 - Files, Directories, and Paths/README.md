@@ -30,7 +30,19 @@ Using the provided files and folder hierarchy, we will be creating birthday invi
 
 ### Example Output
 
-![Mail Merge]()
+      Dear John,
+
+      You are invited to my birthday this Saturday.
+
+      The party will be at 1pm at my house.
+
+      Hope you can make it!
+
+      Eoghy
+
+### Comments
+
+Personally, I chose to push all the functions into a separate file for this project. The primary reason being that it felt bulky. However, I wanted to make sure that the functions were somewhat re-usable and clearly documented. For example, I can change the file paths with ease and use the same functions to get the same output using different data. I prefer his approach when developing as it avoids wasted time re-writing code and requiring the need to modify existing code when scaling.
 
 #### Demo Notes
 
