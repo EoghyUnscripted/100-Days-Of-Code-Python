@@ -36,6 +36,6 @@ With the provided code from the course in the files `menu.py`, `coffee_maker.py`
 
 As this project required not manipulating the provided code, it prevented me from handling input type exceptions. However, I was able to provide exceptions to keep the game running in the event that an input was invalid. For example, if the user entered the wrong command for drink or maintenance, it would ask again.
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Coffee Machine Part 2](https://replit.com/@EoghyUnscripted/Coffee-Machine-Part-2)

@@ -23,6 +23,6 @@ This final project is also a solo run which does not include source code or hint
    1. If they run out of turns, provide feedback to the player
 5. Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode)
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Guess The Number](https://replit.com/@EoghyUnscripted/Guess-The-Number)

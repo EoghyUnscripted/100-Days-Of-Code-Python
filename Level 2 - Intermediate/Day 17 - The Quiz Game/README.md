@@ -25,6 +25,6 @@ With the provided files `quiz_brain.py`, `data.py` and `question_model.py` we wi
 4. Create a loop for the game until all questions are answered
 5. Create a method to check answers and track user score
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - The Quiz Game](https://replit.com/@EoghyUnscripted/The-Quiz-Game)

@@ -25,10 +25,10 @@ Using the Turtle package, we will build a Pong game. This will include the objec
 
 ![Pong Game](Images/pong_game.png)
 
-#### Demo Issues
-
-As Replit does not truly support Turtle very well, users may have better luck forking the GitHub repo and running the app through Visual Studio Code or similar editor. However, the program will run on Replit, but users will not get the full experience due to screen sizing issues.
-
 ### Replit Demo
 
 [Replit Demo - Pong Game](https://replit.com/@EoghyUnscripted/Pong-Game)
+
+#### Demo Issues
+
+As Replit does not truly support Turtle very well, users may have better luck forking the GitHub repo and running the app through Visual Studio Code or similar editor. However, the program will run on Replit, but users will not get the full experience due to screen sizing issues.

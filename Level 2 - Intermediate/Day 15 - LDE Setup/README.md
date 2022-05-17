@@ -36,6 +36,6 @@ Using what we have learned in the beginner courses, we will build a program for 
 
 For this project, I added some input validation to make sure that users were entering the correct data types. Or if a user hit enter instead of inputting a number, the program would handle the exceptions and prompt the user again, or replace with 0. This allows the program to continue running until quit.
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Coffee Machine Part 1](https://replit.com/@EoghyUnscripted/Coffee-Machine-Part-1)

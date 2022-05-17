@@ -39,10 +39,6 @@ In this project, I took things a bit further. I created a function `draw_finish_
 
 While the program shows print statements in the console, I figured this would be better for a user that did not have a console to see the text when running the app. Or if it doesn't appear like there is just one winner due to ending position being super close.
 
-#### Demo Issues
-
-While my other projects are hosted to Replit for demo, Replit does not properly function with Turtle unless logged into the development environment after forking. Replit has no support for input with Turtle and requires the console for input. I have posted two links to check out the code in action within these limitations.
-
 ### Replit Demo
 
 [Replit Demo - Turtle Race 1](https://replit.com/@EoghyUnscripted/Turtle-Race-1)
@@ -50,3 +46,7 @@ This demo requires users to log in to experience the demo using the console for 
 
 [Replit Demo - Turtle Race 2](https://replit.com/@EoghyUnscripted/Turtle-Race-2)
 This demo does not need a Replit login and will provide the user with a color at random and run automatically.
+
+#### Demo Issues
+
+While my other projects are hosted to Replit for demo, Replit does not properly function with Turtle unless logged into the development environment after forking. Replit has no support for input with Turtle and requires the console for input. I have posted two links to check out the code in action within these limitations.

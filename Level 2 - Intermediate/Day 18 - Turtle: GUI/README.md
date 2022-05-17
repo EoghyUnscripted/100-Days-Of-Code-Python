@@ -30,6 +30,6 @@ Using the Turtle package, we will build a program that will recreate a similar i
 
 ![Hirst Painting](Images/hirst_painting.png)
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Hirst Painting](https://replit.com/@EoghyUnscripted/Hirst-Painting)

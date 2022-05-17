@@ -33,10 +33,10 @@ Using the Turtle package, we will build the simple Turtle Crossing game using an
 
 ![Turtle Crossing 2](Images/turtle_crossing_2.png)
 
-#### Demo Issues
-
-As Replit does not truly support Turtle very well, users may have better luck forking the GitHub repo and running the app through Visual Studio Code or similar editor. However, the program will run on Replit, but users will not get the full experience due to screen sizing issues.
-
 ### Replit Demo
 
 [Replit Demo - Turtle Crossing](https://replit.com/@EoghyUnscripted/Turtle-Crossing)
+
+#### Demo Issues
+
+As Replit does not truly support Turtle very well, users may have better luck forking the GitHub repo and running the app through Visual Studio Code or similar editor. However, the program will run on Replit, but users will not get the full experience due to screen sizing issues.

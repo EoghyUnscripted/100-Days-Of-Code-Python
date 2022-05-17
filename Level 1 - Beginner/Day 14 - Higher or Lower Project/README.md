@@ -19,6 +19,6 @@ Using what we learned in previous lectures, the goal of this project was to use 
 5. Add art
 6. Clear screen between rounds
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Higher or Lower](https://replit.com/@EoghyUnscripted/Blackjack-10)

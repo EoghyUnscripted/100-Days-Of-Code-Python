@@ -20,10 +20,6 @@ Using what was learned from the project milestones, the final project for Day 10
 1. Import the logo and print it at the beginning of the program
 2. Adjust the code to allow the input of floating or decimal numbers
 
-### Game Demo
-
-[Replit Demo - Calculator](https://replit.com/@EoghyUnscripted/Calculator)
-
 ### Comments
 
 While the purpose of this course was to work with functions that have outputs, I would most likely modify the program a bit more in terms of scalability. As it is right now, it does work. However, I believe it would be worthwhile to combine the functions for `add`, `subtract`, `multiply`, and `divide` and others into one function.
@@ -31,3 +27,7 @@ While the purpose of this course was to work with functions that have outputs, I
 With that function, it would determine the correct process and output the desired results. So, should there be a need to add or remove features, it can simply be adjusted within the function without affecting other parts of the application. And, the function can be used for multiple other purposes instead of just one.
 
 In addition, I added a modulo function to the program to provide a bit extra to the program.
+
+### Replit Demo
+
+[Replit Demo - Calculator](https://replit.com/@EoghyUnscripted/Calculator)

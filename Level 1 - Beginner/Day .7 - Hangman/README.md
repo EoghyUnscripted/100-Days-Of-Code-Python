@@ -83,6 +83,6 @@ while not end_of_game:
     print(stages[lives])
 ```
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Hangman](https://replit.com/@EoghyUnscripted/Hangman)

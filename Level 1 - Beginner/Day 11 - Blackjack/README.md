@@ -97,7 +97,7 @@ The instructions provided were hints to help the user along the way if they want
     2. If they answer no
        1. End the game
 
-### Game Demo
+### Replit Demo
 
 [Replit Demo - Blackjack 1.0](https://replit.com/@EoghyUnscripted/Blackjack-10)
 
