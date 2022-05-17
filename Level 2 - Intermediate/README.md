@@ -30,7 +30,7 @@ These topics include:
 - [x] Day 22 - Build Pong: Arcade Game
 - [x] Day 23 - Turtle Crossing
 - [x] Day 24 - Files, Directories and Paths
-- [ ] Day 25 - CSV Data, Pandas Library
+- [x] Day 25 - CSV Data, Pandas Library
 - [ ] Day 26 - List Comprehension, NATO Alphabet
 - [ ] Day 27 - Tkinter: *args, **kwargs, GUI Programs
 - [ ] Day 28 - Tkinter: Dynamic Typing, Pomodoro GUI
