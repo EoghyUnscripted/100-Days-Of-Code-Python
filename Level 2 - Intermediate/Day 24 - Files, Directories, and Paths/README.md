@@ -28,7 +28,39 @@ Using the provided files and folder hierarchy, we will be creating birthday invi
    1. Replace [name] in the created letter with the person's name
    2. Save the personalized letter to the "ReadyToSend" folder
 
+### Example Input
+
+#### starting_letter.txt
+
+```
+Dear [name],
+
+You are invited to my birthday this Saturday.
+
+The party will be at 1pm at my house.
+
+Hope you can make it!
+
+Eoghy
+
+```
+
+#### invited_names.txt
+
+```
+John
+Kevin
+Clara
+Yogi
+Michelle
+Paul
+Sarah
+Anapaula
+```
+
 ### Example Output
+
+#### example.txt
 
       Dear John,
 
