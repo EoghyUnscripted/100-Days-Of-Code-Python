@@ -40,7 +40,7 @@ while len(score.correct_guesses) < 50:
     answer_state = input("Guess the name of a state: ").capitalize()    # Prompt user for a guess
     
     # Check if user requests to exit game
-    if answer_state == None or answer_state.title() == "Exit":
+    if answer_state is None or answer_state.title() == "Exit":
         score.states_to_learn(state_names)  # Call function to write missed guesses to file
         break   # Break loop, end game
     
