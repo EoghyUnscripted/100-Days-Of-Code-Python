@@ -24,6 +24,10 @@ Using the provided `nato_phonetic_alphabet.csv` file, complete the two steps bel
 
 ### Example Input
 
+```sh
+Enter a word to convert to NATO alphabet: NATO
+```
+
 #### nato_phonetic_alphabet.csv
 
 ```
@@ -58,8 +62,9 @@ Z,Zulu
 
 ### Example Output
 
-![]()
-![]()
+```sh
+['November', 'Alfa', 'Tango', 'Oscar']
+```
 
 ### Comments
 
