@@ -31,7 +31,7 @@ These topics include:
 - [x] Day 23 - Turtle Crossing
 - [x] Day 24 - Files, Directories and Paths
 - [x] Day 25 - CSV Data, Pandas Library
-- [ ] Day 26 - List Comprehension, NATO Alphabet
+- [x] Day 26 - List Comprehension, NATO Alphabet
 - [ ] Day 27 - Tkinter: *args, **kwargs, GUI Programs
 - [ ] Day 28 - Tkinter: Dynamic Typing, Pomodoro GUI
 - [ ] Day 29 - Tkinter: Password Manager GUI
