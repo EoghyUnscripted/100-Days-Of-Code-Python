@@ -33,7 +33,7 @@ These topics include:
 - [x] Day 25 - CSV Data, Pandas Library
 - [x] Day 26 - List Comprehension, NATO Alphabet
 - [x] Day 27 - Tkinter: *args, **kwargs, GUI Programs
-- [ ] Day 28 - Tkinter: Dynamic Typing, Pomodoro GUI
+- [x] Day 28 - Tkinter: Dynamic Typing, Pomodoro GUI
 - [ ] Day 29 - Tkinter: Password Manager GUI
 - [ ] Day 30 - Errors, Exceptions, JSON Data
 - [ ] Day 31 - Flash Card App
