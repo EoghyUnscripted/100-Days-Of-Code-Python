@@ -35,8 +35,8 @@ These topics include:
 - [x] Day 27 - Tkinter: *args, **kwargs, GUI Programs
 - [x] Day 28 - Tkinter: Dynamic Typing, Pomodoro GUI
 - [x] Day 29 - Tkinter: Password Manager GUI
-- [x] Day 30 - Errors, Exceptions, JSON Data
-- [x] Day 31 - Flash Card App
+- [ ] Day 30 - Errors, Exceptions, JSON Data
+- [ ] Day 31 - Flash Card App
 
 ### Actual Dates
 
@@ -45,8 +45,8 @@ These topics include:
     Elapsed Days: 18
 
     Start: May 13, 2022
-    End: May 22, 2022
-    Elapsed Days: 9
+    End: 
+    Elapsed Days: 
 
 #### Comments
 
