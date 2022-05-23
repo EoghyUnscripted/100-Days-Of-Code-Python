@@ -31,7 +31,8 @@ Using the provided `50_states.csv` file, we will create a game to test how many 
 
 #### 50_states.csv
 
-```
+```sh
+
 state,x,y
 Alabama,139,-77
 Alaska,-204,-170
@@ -83,6 +84,7 @@ Washington,-257,193
 West Virginia,200,20
 Wisconsin,83,113
 Wyoming,-134,90
+
 ```
 
 ### Example Output

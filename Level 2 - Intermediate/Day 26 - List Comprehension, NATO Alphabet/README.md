@@ -4,11 +4,11 @@
 
 For Day 25, we will start with some exercises to learn how to work with Pandas and csv file data for weather and squirrel census data. The goal is to pull in the data using the Pandas library and use it within our program.
 
-      Exercise 26.1 - Squaring Numbers
-      Exercise 26.2 - Filtering Even Numbers
-      Exercise 26.3 - Data Overlap
-      Exercise 26.4 - Dictionary Comprehension 1
-      Exercise 26.5 - Dictionary Comprehension 2
+    Exercise 26.1 - Squaring Numbers
+    Exercise 26.2 - Filtering Even Numbers
+    Exercise 26.3 - Data Overlap
+    Exercise 26.4 - Dictionary Comprehension 1
+    Exercise 26.5 - Dictionary Comprehension 2
 
 ## Project: NATO Alphabet
 
@@ -17,7 +17,7 @@ Using the provided code, we will use list comprehension to convert names to NATO
 ### Instructions
 
 Using the provided `nato_phonetic_alphabet.csv` file, complete the two steps below. The purpose of this lesson is not to just use Pandas and take the "easy" way out and using just the built-in functions. The goal is to use python comprehensions to create your lists and dictionaries.
-    
+
 1. Create a dictionary in this format: {"A": "Alfa", "B": "Bravo"}
 2. Create a list of the phonetic code words from a word that the user inputs
 3. Create an input variable and prompt the user for a word to convert to NATO alphabet
