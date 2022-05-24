@@ -19,7 +19,7 @@ These topics include:
 
 ## Roadmap
 
-- [ ] Day 32 - SMTPLIB & Datetime
+- [x] Day 32 - SMTPLIB & Datetime
 - [ ] Day 33 - API Endpoints & Parameters
 - [ ] Day 34 - API GUI Quiz App
 - [ ] Day 35 - Keys, Authentication, Environment Variables
@@ -55,5 +55,5 @@ These topics include:
 
 ## Course Resources
 
-- [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/learn)
+- [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/learn)
 - Course Resources Folder
