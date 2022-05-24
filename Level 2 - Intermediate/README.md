@@ -69,5 +69,5 @@ November 10, 2021
 
 ## Course Resources
 
-- [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/learn)
+- [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021/2022](https://www.udemy.com/course/100-days-of-code/learn)
 - Course Resources Folder

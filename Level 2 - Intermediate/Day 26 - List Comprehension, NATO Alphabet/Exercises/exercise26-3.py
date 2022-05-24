@@ -1,7 +1,7 @@
 """
 
 INSTITUTION: UDEMY.COM
-COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
 INSTRUCTOR: Dr. Angela Yu
 
 DESCRIPTION:
