@@ -20,7 +20,7 @@ These topics include:
 ## Roadmap
 
 - [x] Day 32 - SMTPLIB & Datetime
-- [ ] Day 33 - API Endpoints & Parameters
+- [x] Day 33 - API Endpoints & Parameters
 - [ ] Day 34 - API GUI Quiz App
 - [ ] Day 35 - Keys, Authentication, Environment Variables
 - [ ] Day 36 - Stock Trading News Alert Project
