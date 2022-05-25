@@ -10,7 +10,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 32
 PROJECT: Automated Birthday Emailer
-LEVEL: Intermediate
+LEVEL: Advanced
 
 """
 

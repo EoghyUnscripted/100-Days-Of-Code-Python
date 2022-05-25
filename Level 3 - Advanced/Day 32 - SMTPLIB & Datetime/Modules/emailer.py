@@ -10,14 +10,14 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 32
 PROJECT: Automated Birthday Emailer
-LEVEL: Intermediate
+LEVEL: Advanced
 
 """
 
 import smtplib    
 
 def send_Birthday_Wishes(send_from, password, recipient, subject, message):
-    """ Function used to send a new email with a motivational message. """
+    """ Function used to send a new email with a birthday message. """
     
     # NOTE: This setup is using Gmail SMTP. You will want to use the SMTP based on your own email host.
     #       If using Gmail, check your security settings and set up an App Password for enhanced security.

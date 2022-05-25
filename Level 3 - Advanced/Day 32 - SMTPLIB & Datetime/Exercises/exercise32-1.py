@@ -10,7 +10,7 @@ Learn to build websites, games, apps, plus scraping and data science
 
 DAY: 32
 EXERCISE: 32-1 Motivational Monday Quotes
-LEVEL: Intermediate
+LEVEL: Advanced
 
 """
 
