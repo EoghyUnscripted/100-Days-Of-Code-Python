@@ -3,7 +3,7 @@
 ## Overview
 
 Day 17 starts with building separate parts of the final project to continue learning how to work with classes. The final product will be a simple quiz game.
-      
+
       Lesson 1 - Create the Question class with 2 attributes text and answer
       Lesson 2 - Create the list of Question objects from the data in data.py
       Lesson 3 - Setting up the main program function in quiz_brain.py
