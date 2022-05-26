@@ -21,7 +21,7 @@ These topics include:
 
 - [x] Day 32 - SMTPLIB & Datetime
 - [x] Day 33 - API Endpoints & Parameters
-- [ ] Day 34 - API GUI Quiz App
+- [x] Day 34 - API GUI Quiz App
 - [ ] Day 35 - Keys, Authentication, Environment Variables
 - [ ] Day 36 - Stock Trading News Alert Project
 - [ ] Day 37 - API Post Requests & Headers
