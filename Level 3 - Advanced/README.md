@@ -22,7 +22,7 @@ These topics include:
 - [x] Day 32 - SMTPLIB & Datetime
 - [x] Day 33 - API Endpoints & Parameters
 - [x] Day 34 - API GUI Quiz App
-- [ ] Day 35 - Keys, Authentication, Environment Variables
+- [x] Day 35 - Keys, Authentication, Environment Variables
 - [ ] Day 36 - Stock Trading News Alert Project
 - [ ] Day 37 - API Post Requests & Headers
 - [ ] Day 38 - Tracking App Using Google Sheets
@@ -52,6 +52,12 @@ These topics include:
     Start: May 23, 2022
     End: 
     Elapsed Days: 
+
+#### Comments
+
+May 27, 2022
+
+    Due to not having time off of work this week, I took this day to rest a bit as the API key for the day's project required some time to generate.
 
 ## Course Resources
 
