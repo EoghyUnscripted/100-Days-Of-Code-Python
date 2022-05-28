@@ -23,8 +23,13 @@ We will be working with Twilio API to send an SMS message to ourselves whenever 
       2. Get a list of the conditions for the next 12 hours
       3. Loop through and check if condition `id < 700`
    2. Connect to Twilio API
-      1. Pass your `Account_SID` and `Auth_Token`
-      2. Create a default message
+      1. Create a default sms message object
+      2. Pass your Twilio variables into the function:
+         1. `Account_SID` - Get this from your Twilio Console
+         2. `Auth_Token`  - Get this from your Twilio Console
+         3. `from_num`    - Get this from your Twilio Console
+         4. `to_num`      - This is your Twilio verified number
+         5. `body_text`   - The sms message content
 2. Use [Python Anywhere](https://www.pythonanywhere.com) to host your code (optional)
    1. Set the app to run automatically at a set time every day
    2. Use environment variables to hide keys and tokens
