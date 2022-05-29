@@ -80,3 +80,8 @@ To set your environment variables, open the `terminal` in your editor and naviga
 ```sh
 export API_KEY="enterYourStringHere"
 ```
+
+#### Additional Resources
+
+- [How to Set and Get Environment Variables in Python](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5) - This is a great resource to learn how to create persistent environment variables
+- [JSON Viewer](http://jsonviewer.stack.hu) - This site is a useful app that converts single line JSON to formatted for readability
