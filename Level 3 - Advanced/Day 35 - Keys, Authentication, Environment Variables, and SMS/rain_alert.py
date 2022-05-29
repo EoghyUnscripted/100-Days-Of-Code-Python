@@ -17,7 +17,7 @@ LEVEL: Advanced
 import os
 from Modules import api_caller
 
-# Weathr API Variable Setup
+# Weather API Variable Setup
 
 api_key = os.environ.get("OWM_API_KEY")    # Set your API key
 weather_endpoint = "https://api.openweathermap.org/data/2.5/onecall"    # Endpoint
