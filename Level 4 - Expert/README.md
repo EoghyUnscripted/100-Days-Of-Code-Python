@@ -50,4 +50,4 @@ These topics include:
 
 ## Course Resources
 
-In the course resources folder, you will find the provided files for the [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code/learn) which include a poster for tracking progress, notebook sheets for tracking learning, and other valuable information about the course.
+- [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/learn)
