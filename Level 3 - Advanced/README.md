@@ -23,7 +23,7 @@ These topics include:
 - [x] Day 33 - API Endpoints & Parameters
 - [x] Day 34 - API GUI Quiz App
 - [x] Day 35 - Keys, Authentication, Environment Variables
-- [ ] Day 36 - Stock Trading News Alert Project
+- [x] Day 36 - Stock Trading News Alert Project
 - [ ] Day 37 - API Post Requests & Headers
 - [ ] Day 38 - Tracking App Using Google Sheets
 - [ ] Day 39 - Flight Deal Finder
@@ -62,4 +62,3 @@ May 27, 2022
 ## Course Resources
 
 - [Udemy Course: 100 Days of Code - The Complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/learn)
-- Course Resources Folder
