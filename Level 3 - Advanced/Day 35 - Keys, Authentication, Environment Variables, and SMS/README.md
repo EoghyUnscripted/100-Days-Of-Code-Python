@@ -11,8 +11,8 @@ We will be working with Twilio API to send an SMS message to ourselves whenever 
 ### Setup
 
 - [Open Weather Map](https://home.openweathermap.org) - Sign up to get a free API key
-- [Twilio](https://www.twilio.com) - Sign up to get an Account SID, Auth Token, trial number and credits for testing
-- Install the `twilio-cli` package
+- [Twilio Console](https://www.twilio.com) - Sign up to get an Account SID, Auth Token, trial number and credits for testing
+- [Twilio-CLI](https://www.twilio.com/docs/twilio-cli/quickstart) - Install the `twilio-cli` package
 - You will need a mobile device that you can use to test
 
 ### Instructions
