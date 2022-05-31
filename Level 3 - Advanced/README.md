@@ -24,7 +24,7 @@ These topics include:
 - [x] Day 34 - API GUI Quiz App
 - [x] Day 35 - Keys, Authentication, Environment Variables
 - [x] Day 36 - Stock Trading News Alert Project
-- [ ] Day 37 - API Post Requests & Headers
+- [x] Day 37 - API Post Requests & Headers
 - [ ] Day 38 - Tracking App Using Google Sheets
 - [ ] Day 39 - Flight Deal Finder
 - [ ] Day 40 - Flight Club
