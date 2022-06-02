@@ -10,11 +10,13 @@ This project is intended to use a natural language processing API to convert the
 
 ### Setup
 
-1. Sign up for Google Sheets or log in to your gmail account
-   1. Got to [My Workouts Spreadsheet](https://docs.google.com/spreadsheets/d/1DHL6Y8XAHSC_KhJsa9QMekwP8b4YheWZY_sxlH3i494/edit?usp=sharing) and make a copy
-   2. File -> Make A copy
-2. Get an API key for [Nutritionix](https://www.nutritionix.com/business/api) by signing up for a free account
-3. Log in with [Sheety (Google)](https://sheety.co) using the same email account for Google Sheets
+- Sign up for Google Sheets or log in to your gmail account
+  - Got to [My Workouts Spreadsheet](https://docs.google.com/spreadsheets/d/1DHL6Y8XAHSC_KhJsa9QMekwP8b4YheWZY_sxlH3i494/edit?usp=sharing) and make a copy
+  - File -> Make A copy
+- Get an API key for [Nutritionix](https://www.nutritionix.com/business/api) by signing up for a free account
+- Log in with [Sheety (Google)](https://sheety.co) using the same email account for Google Sheets
+  - Connect to the Google Sheet you just copied using Sheety, it will do the rest for you
+  - Enable `GET` and `POST` in the Sheety settings for your connected spreadsheet
 
 ### Instructions
 
