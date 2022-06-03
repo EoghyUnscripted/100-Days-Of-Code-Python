@@ -41,7 +41,6 @@ Today's project will start with the basic build. We will put together the pieces
 4. Create the functions in `notification_manager.py`
    1. Send an SMS alert when there is a cheaper flight compared to Google Sheets
 
-
 ### Example Input
 
 #### Google Sheets - Initial Data
