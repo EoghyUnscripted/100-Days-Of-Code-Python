@@ -27,7 +27,7 @@ These topics include:
 - [x] Day 37 - API Post Requests & Headers
 - [x] Day 38 - Tracking App Using Google Sheets
 - [x] Day 39 - Flight Deal Finder
-- [ ] Day 40 - Flight Club
+- [x] Day 40 - Flight Club
 - [ ] Day 41 - Intro to HTML
 - [ ] Day 42 - Intermediate HTML
 - [ ] Day 43 - Intro to CSS
