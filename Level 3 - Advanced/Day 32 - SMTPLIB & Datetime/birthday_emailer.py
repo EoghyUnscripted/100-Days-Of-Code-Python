@@ -14,6 +14,7 @@ LEVEL: Advanced
 
 """
 
+from decouple import config
 from Modules import birthday_loader as loader
 from Modules import emailer
 
@@ -29,10 +30,10 @@ else:   # If there are birthdays today
     
     # Set variables
     
-    send_from = "your@email.com"     # Email address
-    password = "yourPassword"   # Email password
-    recipient = [birthdays['email']]   # Create a list of email recipients
-    subject = "Happy Birthday!"    # Set a subject line
+    send_from = config("GMAIL_ACCT")                    # Email address
+    password = config("GMAIL_PASSWORD")                 # Email password
+    recipient = [birthdays['email']]                    # Create a list of email recipients
+    subject = "Happy Birthday!"                         # Set a subject line
     body = loader.letter_generator(birthdays['name'])   # Set body variable
     
     emailer.send_Birthday_Wishes(send_from, password, recipient, subject, body)    # Call function to send email
