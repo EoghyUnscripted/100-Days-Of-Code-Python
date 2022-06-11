@@ -28,10 +28,10 @@ These topics include:
 - [x] Day 38 - Tracking App Using Google Sheets
 - [x] Day 39 - Flight Deal Finder
 - [x] Day 40 - Flight Club
-- [ ] Day 41 - Intro to HTML
-- [ ] Day 42 - Intermediate HTML
-- [ ] Day 43 - Intro to CSS
-- [ ] Day 44 - Intermediate CSS
+- [x] Day 41 - Intro to HTML
+- [x] Day 42 - Intermediate HTML
+- [x] Day 43 - Intro to CSS
+- [x] Day 44 - Intermediate CSS
 - [ ] Day 45 - Web Scraping with Beautiful Soup
 - [ ] Day 46 - Musical Time Machine
 - [ ] Day 47 - Amazon Price Tracker
@@ -54,6 +54,10 @@ These topics include:
     Elapsed Days: 
 
 #### Comments
+
+June 6, 2022
+
+    As someone that already knows HTML and CSS, I combined Days 41-44 together and completed the course work in one main project to build a simple resume/CV page. This did not include any Python during the course content for these days, but I did not want to skip anything as this would be contrary to the challenge.
 
 May 27, 2022
 
