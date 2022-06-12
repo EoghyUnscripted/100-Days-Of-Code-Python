@@ -30,6 +30,7 @@ soup = BeautifulSoup(eo_html, "html.parser")
 get_titles = soup.find_all(name="h3", class_="title")
 
 # Create a list of the movie titles
+movie_titles = []
 movie_titles = [movie_titles.append(title.getText()) for title in get_titles]
 
 # Reverse the order to ascending
