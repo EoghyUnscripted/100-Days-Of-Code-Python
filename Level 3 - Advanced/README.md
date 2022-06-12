@@ -33,7 +33,7 @@ These topics include:
 - [x] Day 43 - Intro to CSS
 - [x] Day 44 - Intermediate CSS
 - [x] Day 45 - Web Scraping with Beautiful Soup
-- [ ] Day 46 - Musical Time Machine
+- [x] Day 46 - Musical Time Machine
 - [ ] Day 47 - Amazon Price Tracker
 - [ ] Day 48 - Selenium Webdriver Browser
 - [ ] Day 49 - Automating Job Applications on LinkedIn
