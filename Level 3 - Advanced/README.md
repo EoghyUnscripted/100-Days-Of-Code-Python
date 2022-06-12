@@ -32,7 +32,7 @@ These topics include:
 - [x] Day 42 - Intermediate HTML
 - [x] Day 43 - Intro to CSS
 - [x] Day 44 - Intermediate CSS
-- [ ] Day 45 - Web Scraping with Beautiful Soup
+- [x] Day 45 - Web Scraping with Beautiful Soup
 - [ ] Day 46 - Musical Time Machine
 - [ ] Day 47 - Amazon Price Tracker
 - [ ] Day 48 - Selenium Webdriver Browser
