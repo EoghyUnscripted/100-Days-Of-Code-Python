@@ -54,5 +54,6 @@ Since a Spotify URI is required for this app, and the only way to pull it is usi
 
 ### Additional Resources
 
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  - Documentation for the Beautiful Soup module
 - [Spotipy Docmentation](https://spotipy.readthedocs.io/en/2.13.0/) - Documentation for the Spotopy module
 - [Spotify Developer Documentation](https://developer.spotify.com) - Spotify Official API documentation
