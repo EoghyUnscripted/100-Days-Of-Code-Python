@@ -10,6 +10,8 @@ For Day 48, we will be learing about Selenium.
 
 ## Project: Cookie Clicker
 
+For the Cookie Clicker project, we will be building Selenium code that will play the `Cookie Clicker` game automatically as a bot.
+
 ### Setup
 
 1. Install Selenium using [ChromeDriver](https://chromedriver.chromium.org/downloads)
