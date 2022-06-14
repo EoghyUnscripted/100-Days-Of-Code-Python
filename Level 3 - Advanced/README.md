@@ -35,7 +35,7 @@ These topics include:
 - [x] Day 45 - Web Scraping with Beautiful Soup
 - [x] Day 46 - Musical Time Machine
 - [x] Day 47 - Amazon Price Tracker
-- [ ] Day 48 - Selenium Webdriver Browser
+- [x] Day 48 - Selenium Webdriver Browser
 - [ ] Day 49 - Automating Job Applications on LinkedIn
 - [ ] Day 50 - Auto Tinder Swipe Bot
 - [ ] Day 51 - Internet Speed Twitter Complaint Bot
