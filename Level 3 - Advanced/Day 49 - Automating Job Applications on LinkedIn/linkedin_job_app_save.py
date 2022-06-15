@@ -26,7 +26,7 @@ li_password = config("LINKEDIN_PASSOWRD")       # Set password
 # LinkedIn job search url with job filters
 linkedin_search_url = "https://www.linkedin.com/jobs/search/?distance=25.0&f_AL=true&f_E=2&f_JT=F&f_TPR=r604800&f_WT=2&geoId=103644278&keywords=python%20developer"
 
-chrome_driver_path = "/Users/eoghy/Desktop/chromedriver"            # Path to Chrome webdriver
+chrome_driver_path = config("CHROMEDRIVER")                         # Path to Chrome webdriver
 driver = webdriver.Chrome(executable_path=chrome_driver_path)       # Create webdriver class object
 
 driver.get(linkedin_search_url)     # Start the Chrome browser and navigate to a website

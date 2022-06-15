@@ -14,12 +14,12 @@ LEVEL: Advanced
 
 """
 
+from decouple import config
 from selenium import webdriver
 import time
 
 
-# Path to Chrome webdriver
-chrome_driver_path = "/Users/eoghy/Desktop/chromedriver"
+chrome_driver_path = config("CHROMEDRIVER")                     # Path to Chrome webdriver
 
 # Create webdriver class object
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
