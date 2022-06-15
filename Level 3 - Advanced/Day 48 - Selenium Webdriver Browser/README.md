@@ -42,6 +42,10 @@ With this project, the outcome was simple, but getting there was not defined wel
 
 I included error handling as the program will check every 5 seconds for available upgrades. If none are available, then it throws a `ValueError`. For this, I set the exception handling to continue with the program instead of selecting an upgrade.
 
+### Forking
+
+- The `Chromedriver` path will be the direct path to your local chromedriver executable which will launch when called to automate your chrome browser
+
 ### Additional Resources
 
 - [ChromeDriver](https://chromedriver.chromium.org/downloads) - Download page for the Google Chrome webdriver executable

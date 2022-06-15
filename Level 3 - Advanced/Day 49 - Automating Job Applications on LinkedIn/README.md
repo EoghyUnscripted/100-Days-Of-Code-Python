@@ -48,6 +48,10 @@ I created two project files for day 48 as I did not want to actually apply to al
 - One major issue is that you do not get to pick and choose the jobs you apply to, which can cause some awkward conversations if you get a call for a job you don't remember applying to.
 - Another issue is that, with the `linkedin_job_app_save` file, if you already saved the jobs, it will unsave them. A non-issue for testing.
 
+### Forking
+
+- The `Chromedriver` path will be the direct path to your local chromedriver executable which will launch when called to automate your chrome browser
+
 ### Additional Resources
 
 - [ChromeDriver](https://chromedriver.chromium.org/downloads) - Download page for the Google Chrome webdriver executable
