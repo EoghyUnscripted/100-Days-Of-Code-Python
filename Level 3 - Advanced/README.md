@@ -36,9 +36,9 @@ These topics include:
 - [x] Day 46 - Musical Time Machine
 - [x] Day 47 - Amazon Price Tracker
 - [x] Day 48 - Selenium Webdriver Browser
-- [ ] Day 49 - Automating Job Applications on LinkedIn
-- [ ] Day 50 - Auto Tinder Swipe Bot
-- [ ] Day 51 - Internet Speed Twitter Complaint Bot
+- [x] Day 49 - Automating Job Applications on LinkedIn
+- [x] Day 50 - Auto Tinder Swipe Bot
+- [x] Day 51 - Internet Speed Twitter Complaint Bot
 - [ ] Day 52 - Instagram Follower Bot
 - [ ] Day 53 - Web Scraping Data Entry Jobs
 - [ ] Day 54 - Intro to Flask

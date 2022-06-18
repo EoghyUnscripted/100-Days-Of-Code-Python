@@ -2,7 +2,7 @@
 
 ## Overview
 
-For Day 50, we will be continuing to work with Selenium and working wiht Tinder.
+For Day 50, we will be continuing to work with Selenium and working with Tinder.
 
 ## Project: Auto Tinder Swipe Bot
 
