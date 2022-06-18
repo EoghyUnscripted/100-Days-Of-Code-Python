@@ -15,7 +15,6 @@ LEVEL: Advanced
 """
 
 
-from turtle import down
 from decouple import config
 import time
 from selenium import webdriver
@@ -42,6 +41,7 @@ class InternetSpeetTwitterBot():
         self.driver = webdriver.Chrome(executable_path=self.chrome_driver_path)       # Create webdriver class object
         
     def get_internet_speed(self):
+        """ Function used to test internet speed. """
         
         self.driver.get(self.speed_test_url)                            # Start the Chrome browser and navigate speed test
         time.sleep(5)                                                   # Sleep to wait for page to load
@@ -74,6 +74,7 @@ class InternetSpeetTwitterBot():
             return self.low_speeds
     
     def tweet_to_provider(self):
+        """ Function used to log into Twitter and Tweet complaint message to local ISP. """
         
         self.driver.get(self.twitter_url)                               # Navigate to Twitter
         time.sleep(5)                                                   # Sleep to wait for page to load
