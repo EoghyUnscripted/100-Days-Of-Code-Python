@@ -36,6 +36,10 @@ The project for today will use Selenium to log into Instagram and automatically 
 
 ### Comments
 
+June 18, 2022
+
+      Still unable to test program or move forward due to the inability to log in or create a new account to use for the test. As I do not want my primary account to be banned, I am chosing to forego this project.
+
 June 17, 2022
 
       Due to Instagram locking me out from logging in more than a few times in a row to test, I am unable to continue to test the program.
