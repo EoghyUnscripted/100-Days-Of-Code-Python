@@ -39,7 +39,7 @@ These topics include:
 - [x] Day 49 - Automating Job Applications on LinkedIn
 - [x] Day 50 - Auto Tinder Swipe Bot
 - [x] Day 51 - Internet Speed Twitter Complaint Bot
-- [ ] ~~~Day 52 - Instagram Follower Bot~~~
+- [ ] ~~Day 52 - Instagram Follower Bot~~
 - [x] Day 53 - Web Scraping Data Entry Jobs
 - [x] Day 54 - Intro to Flask
 - [ ] Day 55 - HTML & Url Parsing in Flask
