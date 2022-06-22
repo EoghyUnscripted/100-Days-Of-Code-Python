@@ -26,26 +26,14 @@ For this project we will learn the basics on starting our first Flask app and cr
 
 ```python
 
-import time
-current_time = time.time()
-print(current_time)
+def speed_calc_decorator():
 
-def speed_calc_decorator(function):
+    pass
 
-    def timer():
-        start = time.time()     # Get time at start
-        function()              # Call function
-        end = time.time()       # Get time at end
-        print(f"{function.__name__} run speed: {end - start}s")     # Output time to complete
-
-    return timer
-
-@speed_calc_decorator           # Call decorator
 def fast_function():
     for i in range(10000000):
         i * i
 
-@speed_calc_decorator           # Call decorator 
 def slow_function():
     for i in range(100000000):
         i * i
