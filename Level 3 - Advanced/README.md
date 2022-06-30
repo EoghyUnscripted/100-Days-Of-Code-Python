@@ -42,7 +42,7 @@ These topics include:
 - [ ] ~~Day 52 - Instagram Follower Bot~~ ***Incompleted***
 - [x] Day 53 - Web Scraping Data Entry Jobs
 - [x] Day 54 - Intro to Flask
-- [ ] Day 55 - HTML & Url Parsing in Flask
+- [x] Day 55 - HTML & Url Parsing in Flask
 - [ ] Day 56 - Rendering HTML & Static Files
 - [ ] Day 57 - Blog Project - Templating with Jinja in Flask
 - [ ] Day 58 - Bootstrap
