@@ -1,0 +1,47 @@
+<!--
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 57
+PROJECT: Blog Project
+LEVEL: Advanced
+
+-->
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Blog Posts</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="/static/images/icon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/style.css">
+	</head>
+	<body>
+
+        <div class="wrapper">
+            <div class="top">
+                <div class="title"><h1>The Blurb</h1></div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h1> {{ post.title }}</h1>
+                    <h2> {{ post.subtitle }}</h2>
+                    <p> {{ post.body }}</p>
+                </div>
+            </div>
+        </div>
+
+	</body>
+	<footer>
+		<p>&copy; Copyright {{ year }} Eoghy Unscripted</p>
+	</footer>
+</html>
