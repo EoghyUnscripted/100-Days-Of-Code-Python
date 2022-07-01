@@ -44,7 +44,7 @@ These topics include:
 
 ### Actual Dates
 
-    Start: 
+    Start: July 1, 2022
     End: 
     Elapsed Days: 
 
