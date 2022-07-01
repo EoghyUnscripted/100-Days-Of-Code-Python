@@ -44,14 +44,14 @@ These topics include:
 - [x] Day 54 - Intro to Flask
 - [x] Day 55 - HTML & Url Parsing in Flask
 - [x] Day 56 - Rendering HTML & Static Files
-- [ ] Day 57 - Blog Project - Templating with Jinja in Flask
-- [ ] Day 58 - Bootstrap
+- [x] Day 57 - Blog Project - Templating with Jinja in Flask
+- [x] Day 58 - Bootstrap
 
 ### Actual Dates
 
     Start: May 23, 2022
-    End: 
-    Elapsed Days: 
+    End: June 30, 2022
+    Elapsed Days: 39 Days
 
 #### Comments
 
