@@ -1,0 +1,178 @@
+/*
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 58
+PROJECT: TinDog
+LEVEL: Advanced
+
+*/
+
+/* Element Selectors */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFF;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Class Selectors */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone {
+    max-width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+
+.features p {
+    color: #8f8f8f;
+    padding: 5%;
+}
+
+.features i {
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: 10%;
+}
+
+.features i:hover {
+    color: #ff4c68;
+}
+
+.feature-item {
+    padding: 50px 10px 50px 10px;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+/* Id Selectors */
+#title {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 15%;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #FFF;
+}
+
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#cta {
+    color: #FFF;
+    background-color: #ff4c68;
+}
+
+#testimonials, #press, #pricing, #cta, .feature-item {
+    text-align: center;
+}
+
+/* Media Styling */
+@media (max-width: 1200px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #title .container-fluid {
+        padding: 3% 15% 7%;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
