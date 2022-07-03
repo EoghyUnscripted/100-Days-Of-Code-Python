@@ -19,7 +19,7 @@ These topics include:
 
 ## Roadmap
 
-- [ ] Day 59 - Blog Project: Adding Styling
+- [x] Day 59 - Blog Project: Adding Styling
 - [ ] Day 60 - POST Requests with Flask
 - [ ] Day 61 - Building Advanced Forms with Flask
 - [ ] Day 62 - Flask, WTForms, Bootstrap, and CSV
