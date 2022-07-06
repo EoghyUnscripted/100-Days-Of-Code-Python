@@ -1,4 +1,4 @@
-# Day 60 Blog Project - POST Form
+# Day 60 POST Requests with Flask
 
 ## Overview
 
