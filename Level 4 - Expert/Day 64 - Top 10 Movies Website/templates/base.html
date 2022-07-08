@@ -1,0 +1,36 @@
+<!--
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 62
+PROJECT: Top 10 Movies
+LEVEL: Expert
+
+-->
+
+{% extends 'bootstrap/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% block styles %}
+    {{super()}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    {% endblock %}
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
