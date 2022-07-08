@@ -14,8 +14,8 @@ LEVEL: Expert
 
 """
 
+
 from datetime import datetime
-from email.quoprimime import body_check
 import smtplib
 import requests
 from flask import Flask, render_template, request
