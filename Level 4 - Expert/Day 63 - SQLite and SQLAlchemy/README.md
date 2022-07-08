@@ -75,10 +75,6 @@ But it wouldn't allow me to pass it and kept giving me a URL error saying that t
 
 The argument passed had to be called through the requests module and used that way, instead. Bit confusing and will need to do some more studying to understand the logic.
 
-#### Forking
-
-If forking the app, please update the `server.py` details and setup your environment configurations for `secret_key`.
-
 ### Additional Resources
 
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.1.x/) - Documentation for the Flask package
