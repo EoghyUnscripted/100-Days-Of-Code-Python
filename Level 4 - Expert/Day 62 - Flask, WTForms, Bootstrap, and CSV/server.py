@@ -20,7 +20,7 @@ from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, TimeField, URLField, SelectField
 from wtforms.validators import DataRequired, URL
-from datetime import datetime as dt
+from datetime import datetime
 import csv
 from decouple import config
 
