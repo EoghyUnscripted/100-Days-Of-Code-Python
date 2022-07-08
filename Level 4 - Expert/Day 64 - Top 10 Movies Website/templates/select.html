@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+  {{ super() }}
+{% endblock %}
+
+{% block title %}Select Movie{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <h1 class="heading">Select Movie</h1>
+  
+  {% for movie in options %}
+  <p>
+    <a href="{{ url_for('add', id=movie.id) }}"> {{ movie.original_title }} 
+      {% if movie.release_date|length %} - {{ movie.release_date[:4] }} {% endif %}</a>
+  </p>
+  {% endfor %}
+
+</div>
+{% endblock %}
