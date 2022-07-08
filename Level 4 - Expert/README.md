@@ -20,10 +20,10 @@ These topics include:
 ## Roadmap
 
 - [x] Day 59 - Blog Project: Adding Styling
-- [ ] Day 60 - POST Requests with Flask
-- [ ] Day 61 - Building Advanced Forms with Flask
-- [ ] Day 62 - Flask, WTForms, Bootstrap, and CSV
-- [ ] Day 63 - SQLite and SQLAlchemy
+- [x] Day 60 - POST Requests with Flask
+- [x] Day 61 - Building Advanced Forms with Flask
+- [x] Day 62 - Flask, WTForms, Bootstrap, and CSV
+- [x] Day 63 - SQLite and SQLAlchemy
 - [ ] Day 64 - Top 10 Movies Website
 - [ ] Day 65 - Web Design
 - [ ] Day 66 - Building API's with RESTful Routing
