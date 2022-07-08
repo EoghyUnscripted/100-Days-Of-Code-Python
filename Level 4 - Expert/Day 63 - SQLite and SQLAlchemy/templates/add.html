@@ -1,0 +1,35 @@
+<!--
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 62
+PROJECT: Flask, Bootstrap, Forms, & Data
+LEVEL: Expert
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body>
+    <form action="{{ url_for('add') }}" method="POST">
+        <label>Book Name</label>
+        <input type="text" name="title" id="title">
+        <label>Book Author</label>
+        <input type="text" name="author" id="author">
+        <label>Rating</label>
+        <input type="text" name="rating" id="rating">
+        <button type="submit">Add Book</button>
+    </form>
+</body>
+</html>

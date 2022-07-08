@@ -1,0 +1,41 @@
+<!--
+
+INSTITUTION: UDEMY.COM
+COURSE: 100 Days of Code - The Complete Python Pro Bootcamp for 2022
+INSTRUCTOR: Dr. Angela Yu
+
+DESCRIPTION:
+Master Python by building 100 projects in 100 days.
+Learn to build websites, games, apps, plus scraping and data science
+
+DAY: 62
+PROJECT: Flask, Bootstrap, Forms, & Data
+LEVEL: Expert
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+</head>
+<body>
+<h1>My Library</h1>
+    {% if books|length %}
+    <ul>
+        {% for book in books %}
+        <li>{{ book.title }} - {{ book.author }} - {{ book.rating }}/10&emsp;
+            <a href="{{ url_for('edit', id=book.id) }}"><button>Edit</button></a>&ensp;
+            <a href="{{ url_for('delete', id=book.id) }}"><button>Delete</button></a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p>Library is empty.</p>
+    {% endif %}
+    
+<a href="{{ url_for('add') }}">Add New Book</a>
+</body>
+</html>
