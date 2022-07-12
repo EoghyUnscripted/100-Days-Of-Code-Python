@@ -25,7 +25,7 @@ These topics include:
 - [x] Day 62 - Flask, WTForms, Bootstrap, and CSV
 - [x] Day 63 - SQLite and SQLAlchemy
 - [x] Day 64 - Top 10 Movies Website
-- [ ] Day 65 - Web Design
+- [x] Day 65 - Web Design
 - [ ] Day 66 - Building API's with RESTful Routing
 - [ ] Day 67 - Blog with RESTful Routing
 - [ ] Day 68 - Authentication with Flask
