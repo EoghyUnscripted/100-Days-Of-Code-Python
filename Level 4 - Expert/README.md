@@ -26,7 +26,7 @@ These topics include:
 - [x] Day 63 - SQLite and SQLAlchemy
 - [x] Day 64 - Top 10 Movies Website
 - [x] Day 65 - Web Design
-- [ ] Day 66 - Building API's with RESTful Routing
+- [x] Day 66 - Building API's with RESTful Routing
 - [ ] Day 67 - Blog with RESTful Routing
 - [ ] Day 68 - Authentication with Flask
 - [ ] Day 69 - Blog Project: Adding Users
