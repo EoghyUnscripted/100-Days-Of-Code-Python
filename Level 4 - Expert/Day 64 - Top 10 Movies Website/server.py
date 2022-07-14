@@ -120,7 +120,6 @@ def search():
 @app.route("/add")
 def add():
 
-
     movie_id = request.args.get('id')
     r = requests.get(f"{MOVIE_DATA_URL}{movie_id}?api_key={MOVIE_API_KEY}")
     data = r.json()
