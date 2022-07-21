@@ -28,8 +28,8 @@ These topics include:
 - [x] Day 65 - Web Design
 - [x] Day 66 - Building API's with RESTful Routing
 - [x] Day 67 - Blog with RESTful Routing
-- [ ] Day 68 - Authentication with Flask
-- [ ] Day 69 - Blog Project: Adding Users
+- [x] Day 68 - Authentication with Flask
+- [x] Day 69 - Blog Project: Adding Users
 - [ ] Day 70 - Deploying Web Apps with Heroku
 - [ ] Day 71 - Data Exploration with Pandas
 - [ ] Day 72 - Data Visualization with Matplotlib
