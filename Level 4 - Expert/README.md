@@ -31,7 +31,7 @@ These topics include:
 - [x] Day 68 - Authentication with Flask
 - [x] Day 69 - Blog Project: Adding Users
 - [x] Day 70 - Deploying Web Apps with Heroku
-- [ ] Day 71 - Data Exploration with Pandas
+- [x] Day 71 - Data Exploration with Pandas
 - [ ] Day 72 - Data Visualization with Matplotlib
 - [ ] Day 73 - Aggregate & Merge Data with Pandas
 - [ ] Day 74 - Resampling Data & Visualizing Time Series
