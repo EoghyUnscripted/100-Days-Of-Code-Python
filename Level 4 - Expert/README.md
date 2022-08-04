@@ -33,7 +33,7 @@ These topics include:
 - [x] Day 70 - Deploying Web Apps with Heroku
 - [x] Day 71 - Data Exploration with Pandas
 - [x] Day 72 - Data Visualization with Matplotlib
-- [ ] Day 73 - Aggregate & Merge Data with Pandas
+- [x] Day 73 - Aggregate & Merge Data with Pandas
 - [ ] Day 74 - Resampling Data & Visualizing Time Series
 - [ ] Day 75 - Plotly Charts & Analyzing Android App Store
 - [ ] Day 76 - NumPy & N-Dimensional Arrays
