@@ -29,14 +29,33 @@ For Day 76, we will be working with NumPy.
    1. Print out all the indices of the non-zero elements in this array:
    ```[6, 0, 9, 0, 0, 5, 0]```
 5. Challenge 5:
-   1. 
+   1. Use NumPy to generate a 3x3x3 array with random numbers
 6. Challenge 6:
-   1. 
+   1. Use `linspace()` to create a vector `x` of size 9 with values spaced out evenly between 0 to 100 (both included)
 7. Chalenge 7:
-   1. 
+   1. Use `linspace()` to create another vector `y` of size 9 with values between -3 to 3 (both included)
+   2. Then plot `x` and `y` on a line chart using Matplotlib
 8. Challenge 8:
-   1. 
+   1. Use NumPy to generate an array called noise with shape 128x128x3 that has random values
+   2. Then use Matplotlib's `imshow()` to display the array as an image
+9. Challenge 9:
+   1. Multuply `a1` with `b1` using `matmul()`
+   2. Then check your work using the `@` multiplier
+10. Challenge 10:
+    1. What is the data type of img?
+    2. What is the shape?
+    3. How many dimensions does it have?
+    4. What is the resolution of the image?
+11. Challenge 11:
+    1. Convert the image to B&W
+       1. Divide the img values by 255
+       2. Multiply the new img values by the given grey values
+       3. Show the image
+12. Challenge 12:
+    1. Manipulate the array to flip the grey image upside down
+    2. Rotate the color image
+    3. Invert the color image
 
 ### Comments
 
-
+Again, this project was increasingly more difficult as I'm not one to really use data analysis tools in this manner or creating charts. Hopefully, I will be able to understand it a bit better in the future.
