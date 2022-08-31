@@ -34,9 +34,9 @@ These topics include:
 - [x] Day 71 - Data Exploration with Pandas
 - [x] Day 72 - Data Visualization with Matplotlib
 - [x] Day 73 - Aggregate & Merge Data with Pandas
-- [ ] Day 74 - Resampling Data & Visualizing Time Series
-- [ ] Day 75 - Plotly Charts & Analyzing Android App Store
-- [ ] Day 76 - NumPy & N-Dimensional Arrays
+- [x] Day 74 - Resampling Data & Visualizing Time Series
+- [x] Day 75 - Plotly Charts & Analyzing Android App Store
+- [x] Day 76 - NumPy & N-Dimensional Arrays
 - [ ] Day 77 - Linear Regression & Data Visualization with Seaborn
 - [ ] Day 78 - Plotly, Matplotlib, and Seaborn
 - [ ] Day 79 - t-Tests & Distributions
@@ -45,8 +45,18 @@ These topics include:
 ### Actual Dates
 
     Start: July 1, 2022
-    End: 
-    Elapsed Days: 
+    End: Aug 30, 2022
+    Elapsed Days: 61
+
+### Comments
+
+August 30, 2022
+
+    Due to time constraints and being a manager at my employer, I have been working extra hours to keep the store running. This left me with less time to focus on my projects recently.
+
+    I am deciding that the best route for me will be to put days 77-80 on hold while I focus on the last leg of the 100 Days of Python Challenge.
+
+    I believe it is in the best interest as I will be able to focus more attention to learning data analysis and the new Python libraries.
 
 ## Course Resources
 
