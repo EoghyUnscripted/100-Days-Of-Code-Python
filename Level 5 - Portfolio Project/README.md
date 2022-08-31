@@ -2,7 +2,7 @@
 
 ## Level 5 - Portfolio Project
 
-In this section are days 81-100 in which the course covers final projects to develop an electronic portfolio.
+In this section are days 81-100 in which the course recommends final projects to develop an electronic portfolio.
 
 These topics include:
 
@@ -14,6 +14,8 @@ These topics include:
 - Space Invaders Game
 - Custom API Driven Website
 - Custom Browser Automation
+
+In addition, the course does not provide any tutorials or source code or major requirements for these assignments. This section is strictly for the student to design and develop on their own with little to no guidance other than what they have learned along the way.
 
 ## Roadmap
 
@@ -40,7 +42,7 @@ These topics include:
 
 ### Actual Dates
 
-    Start: 
+    Start: August 30, 2022
     End: 
     Elapsed Days: 
 
