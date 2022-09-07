@@ -1,0 +1,334 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+{% endblock %}
+
+{% block title %}Eoghan Hulbert{% endblock %}
+
+{% block content %}
+
+  <div id="page-wraper">
+    <!-- Sidebar Menu -->
+    <div class="responsive-nav">
+      <i class="fa fa-bars" id="menu-toggle"></i>
+      <div id="menu" class="menu">
+        <i class="fa fa-times" id="menu-close"></i>
+        <div class="container">
+          <div class="image">
+            <a href="#"><img src="{{ url_for('static', filename='assets/images/author-image.png' ) }}" class="profile-img-bg" alt="" /></a>
+          </div>
+          <div class="author-content">
+            <h4>Eoghan Hulbert</h4>
+            <span>Software Engineer</span>
+          </div>
+          <nav class="main-nav" role="navigation">
+            <ul class="main-menu">
+              <li><a href="#section1">About Me</a></li>
+              <li><a href="#section2">What I’m good at</a></li>
+              <li><a href="#section3">My Work</a></li>
+              <li><a href="#section4">Contact Me</a></li>
+            </ul>
+          </nav>
+          <div class="social-network">
+            <ul class="soial-icons">
+              <li>
+                <a href="https://github.com/EoghyUnscripted"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/HeyEoghy"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/eoghanhulbert/"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://www.hackerrank.com/Eoghy"><i class="fab fa-hackerrank"></i></a>
+              </li>
+              <li>
+                <a href="https://replit.com/@EoghyUnscripted"><i class="fa fa-globe"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-text">
+            <p>Copyright &copy; Eoghy <em>Unscripted</em><br/> 2020 &mdash; {{ year }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section about-me" data-section="section1">
+      <div class="container">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <div class="line-dec"></div>
+          <span>
+            Software engineer with over 3 years of experience driving the design, development, and implementation of new systems, 
+            products, and data processes that enable organizations to scale and meet the emerging needs of internal and external customers. 
+          </span>
+        </div>
+        {% for p in all_posts %}
+
+          {% if p.id % 2 == 0 %}
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="{{ p.img_url }}" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>{{ p.title }}</h4>
+                  {{ p.body|truncate|safe }}
+                  <div class="white-button">
+                    <a href="{{ url_for('show_post', post_id=p.id) }}">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% elif p.id % 2 != 0 %}
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>{{ p.title }}</h4>
+                  {{ p.body|truncate|safe }}
+                  <div class="white-button">
+                    <a href="{{ url_for('show_post', post_id=p.id) }}">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="{{ p.img_url }}" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="section my-services" data-section="section2">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What I’m good at?</h2>
+          <div class="line-dec"></div>
+          <span>
+            For the past 8 years I have focused on developing my skills across the stack as a Software Engineer. Primarily, my strengths are in databases and backend functions. 
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon" id="frontend">
+                <i class="fab fa-html5 fa-5x"></i>
+                <i class="fab fa-css3-alt fa-5x"></i>
+                <i class="fab fa-js fa-5x"></i>
+              </div>
+              <h4>Front-End</h4>
+              <p>
+                Experience working with HTML, CSS, JS basics, JSON, Python and frameworks such as Django and Jinja2.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon" id="backend">
+                <i class="fab fa-python fa-5x"></i>
+                <i class="fab fa-java fa-5x"></i>
+              </div>
+              <h4>Backend</h4>
+              <p>
+                Strong background working with core applications and scripting with Python, SQL, and Java.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon" id="databases">
+                <i class="fas fa-database fa-5x"></i>
+                <i class="fas fa-server fa-5x"></i>
+              </div>
+              <h4>Databases</h4>
+              <p>
+                Several years of professional experience working with databases and SQL such as MySQL and MSSQL Server.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="service-icon" id="tools">
+                <i class="fab fa-github fa-5x"></i>
+                <i class="fab fa-jira fa-5x"></i>
+              </div>
+              <h4>Tools</h4>
+              <p>
+                Explored dev ops tools Git, GitHub, Jira, Confluence, Postman and similiar for testing and mitigation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-work" data-section="section3">
+      <div class="container">
+        <div class="section-heading">
+          <h2>My Work</h2>
+          <div class="line-dec"></div>
+          <span>
+            As a full stack developer, my work spans across the front-end, backend, databases, and other areas of software engineering.
+          </span>
+        </div>
+        <div class="row">
+          <div class="isotope-wrapper">
+            <form class="isotope-toolbar">
+              <label><input
+                  type="radio"
+                  data-type="*"
+                  checked=""
+                  name="isotope-filter" />
+                <span>all</span></label>
+              <label><input
+                  type="radio"
+                  data-type="front-end"
+                  name="isotope-filter" />
+                <span>front-end</span></label>
+              <label><input
+                  type="radio"
+                  data-type="backend"
+                  name="isotope-filter" />
+                <span>backend</span></label>
+              <label><input
+                  type="radio"
+                  data-type="other"
+                  name="isotope-filter" />
+                <span>other</span></label>
+            </form>
+            <div class="isotope-box">
+              <div class="isotope-item" data-type="backend">
+                <figure class="snip1321">
+                  <img src="static/assets/images/greenscreen.png" alt="Green Screen Resume" />
+                  <figcaption>
+                    <a href="static/assets/images/greenscreen.png" data-lightbox="image-1" data-title="Green Screen Resume"><i class="fa fa-search"></i></a>
+                    <h4>Green Screen</h4>
+                    <span>Interactive resume</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="front-end">
+                <figure class="snip1321">
+                  <img src="static/assets/images/theblurb.png" alt="The Blurb" />
+                  <figcaption>
+                    <a href="static/assets/images/theblurb.png" data-lightbox="image-1" data-title="The Blurb Blog"><i class="fa fa-search"></i></a>
+                    <h4>The Blurb</h4>
+                    <span>Simple Flask Blog</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="other">
+                <figure class="snip1321">
+                  <img src="static/assets/images/flashcards.png" alt="Flash Cards" />
+                  <figcaption>
+                    <a href="static/assets/images/flashcards.png" data-lightbox="image-1" data-title="Language Flash Cards"><i class="fa fa-search"></i></a>
+                    <h4>Flash Cards</h4>
+                    <span>GUI For Studying</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="backend">
+                <figure class="snip1321">
+                  <img src="static/assets/images/pythonrecipemanager.png" alt="Recipe Manager" >
+                  <figcaption>
+                    <a href="static/assets/images/pythonrecipemanager.png" data-lightbox="image-1" data-title="Recipe Manager"><i class="fa fa-search"></i></a>
+                    <h4>Recipe Manager</h4>
+                    <span>Create and store recipes</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="other">
+                <figure class="snip1321">
+                  <img src="static/assets/images/100daysofcode.jpeg" alt="100 Days of Code" />
+                  <figcaption>
+                    <a href="static/assets/images/100daysofcode.jpeg" data-lightbox="image-1" data-title="100 Days of Code"><i class="fa fa-search"></i></a>
+                    <h4>100 Days of Code</h4>
+                    <span>Python coding challenge</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-me" data-section="section4">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact Me</h2>
+          <div class="line-dec"></div>
+          <span>
+            Please feel free to reach out if you would like to learn more about be or my projects.
+          </span>
+        </div>
+        <div class="row">
+          <div class="right-content">
+            <div class="container">
+              <form id="contact" action="{{ url_for('contact') }}" method="POST">
+                {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    {% for message in messages %}
+                    <p style="color: red;"><strong>{{ message }}</strong></p>  
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+                <div class="row">
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">
+                        Send Message
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  {% endblock %}
+
+  {% block scripts %}
+    {{ super() }}
+  {% endblock %}
